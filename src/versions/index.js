@@ -19,7 +19,7 @@ const Versions = ({
   // We are reversing the versions array as the assumption is that
   // newer versions are appended to the bottom of the file
   return (
-    <div id="blabbr-version-history">
+    <div id="versions-version-history">
       <div className="dropdown">
         <button className="dropbtn" >{currentVersion}</button>
         <div className="dropdown-content">
@@ -29,7 +29,7 @@ const Versions = ({
               target="_parent"
               key={`blabbrVersionLink${counter++}`}
             >
-              {v}
+              {version}
             </a>))}
         </div>
       </div>

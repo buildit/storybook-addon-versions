@@ -1,13 +1,12 @@
 import React from 'react';
 import addons from '@kadira/storybook-addons'; // eslint-disable-line
-import Versions from './versions';
+import StoryWrapper from './storyWrapper';
 
 function wrapStory(channel, storyFn, context) {
   return (
-    <div>
-      <Versions availableVersions='' currentVersion="0.0.0" />
+    <StoryWrapper channel={channel}>
       {storyFn(context)}
-    </div>
+    </StoryWrapper>
   );
 }
 
