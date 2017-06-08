@@ -3,9 +3,6 @@
   "version": "0.0.1",
   "description": "Navigate different versions of storybook style guides.",
   "main": "dist/index.js",
-  "bin": {
-    "blabbr-config": "./scripts/configure.js"
-  },
   "scripts": {
     "start": "npm run storybook",
     "storybook": "start-storybook -p 9001 -s ./.storybook",
@@ -24,23 +21,14 @@
   "homepage": "https://github.com/buildit/storybook-addon-versions#readme",
   "keywords": [
     "atomic-design",
-    "blabbr",
     "react",
     "storybook",
     "storybook-addon",
-    "storybook-addon-blabbr",
-    "collaboration",
-    "review"
+    "storybook-addon-versions",
+    "versions"
   ],
   "author": "Buildit",
   "license": "MIT",
-  "jest": {
-    "moduleNameMapper": {
-      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
-      "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js",
-      "blabbr-config": "<rootDir>/.storybook/blabbr-config.js"
-    }
-  },
   "devDependencies": {
     "@kadira/storybook": "^2.35.2",
     "babel-cli": "^6.24.1",
@@ -70,5 +58,10 @@
     "react": "^15",
     "react-dom": "^15",
     "style-loader": "^0.17.0"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.css$": "<rootDir>/__mocks__/styleMock.js"
+    }
   }
 }

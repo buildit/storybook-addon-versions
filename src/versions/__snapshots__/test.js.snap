@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Versions dropdown not shown when no versions required (empty) 1`] = `null`;
+
+exports[`Versions dropdown not shown when no versions required (null) 1`] = `null`;
+
+exports[`Versions dropdown shows the supplied versions 1`] = `null`;
