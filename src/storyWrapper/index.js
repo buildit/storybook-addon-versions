@@ -15,7 +15,7 @@ class StoryWrapper extends React.Component {
   componentWillMount() {
     if (window && window.parent) {
       const url = window.parent.location;
-      const location = `${url.protocol}//${url.hostname}:${url.port}/versions.json`;
+      const location = `${url.protocol}//${url.hostname}:${url.port}/storybook-versions.json`;
       const currentVersion = '0.0.0';
 
       this.setState({
