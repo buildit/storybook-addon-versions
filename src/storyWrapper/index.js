@@ -7,20 +7,26 @@ class StoryWrapper extends React.Component {
     super(props);
     this.state = {
       commentCount: 0,
-      versions: null,
+      availableVersions: null,
+      currentVersion: ''
     };
   }
 
   componentWillMount() {
-    if (true && window && window.parent) {
+    if (window && window.parent) {
       const url = window.parent.location;
       const location = `${url.protocol}//${url.hostname}:${url.port}/versions.json`;
+      const currentVersion = '0.0.0';
+
+      this.setState({
+        currentVersion,
+      });
 
       fetch(location).then((response) => {
         if (response.ok) {
           response.json().then((data) => {
             this.setState({
-              versions: data,
+              availableVersions: data,
             });
           });
         }
@@ -31,9 +37,10 @@ class StoryWrapper extends React.Component {
   }
 
   render() {
+    const {availableVersions, currentVersion} = this.state;
     return (
       <div id="versions-storyWrapper">
-        <Versions availableVersions={this.state.versions} currentVersion="0.0.0" />
+        <Versions availableVersions={availableVersions} currentVersion={currentVersion} />
         <div id="versions-storyWrapper-content">
           {this.props.children}
         </div>
