@@ -1,0 +1,17 @@
+{
+  "extends": ["airbnb"],
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true
+  },
+  "rules": {
+    "import/prefer-default-export": 0,
+    "react/forbid-prop-types": 1,
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/require-default-props": 1,
+    "no-underscore-dangle": 1,
+    "no-plusplus": 0,
+    "no-unused-expressions": ["error", { "allowShortCircuit": true }]
+  }
+}
