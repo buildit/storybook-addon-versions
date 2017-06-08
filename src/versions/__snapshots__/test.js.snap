@@ -16,7 +16,7 @@ exports[`Versions dropdown not shown when no versions required (null) 1`] = `nul
 
 exports[`Versions dropdown shows the supplied versions 1`] = `
 <div
-  id="versions-version-history"
+  id="addon-version-history"
 >
   <div
     className="dropdown"
