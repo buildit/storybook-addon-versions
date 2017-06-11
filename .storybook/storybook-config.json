@@ -1,0 +1,8 @@
+{
+  "storybook": {
+    "versions": {
+      "versionsPath": "storybook-versions.json",
+      "urlRegex": ""
+    }
+  }
+}
