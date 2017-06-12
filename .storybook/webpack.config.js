@@ -1,5 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
+const buildVersion = require('../package.json').version;
 
 module.exports = {
 	module: {
