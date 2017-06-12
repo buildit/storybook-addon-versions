@@ -21,20 +21,18 @@ class StoryWrapper extends React.Component {
         if (response.ok) {
           response.json().then((data) => {
             if (data && data.storybook && data.storybook.versions) {
-              const storybookConfig = data.storybook.versions;
-              if (storybookConfig.availableVersions) {
+              const { availableVersions, regex } = data.storybook.versions;
+              if (availableVersions) {
                 this.setState({
-                  availableVersions: storybookConfig.availableVersions,
+                  availableVersions,
                 });
               }
 
               let currentVersion = '-';
               const path = url.pathname;
-              if (path && path !== '/') {
-                if (storybookConfig.regex) {
-                  const r = new RegExp(storybookConfig.regex, 'i');
-                  currentVersion = r.exec(path)[1];
-                }
+              if (path && path !== '/' && regex) {
+                const r = new RegExp(regex, 'i');
+                currentVersion = r.exec(path)[1];
               }
 
               this.setState({

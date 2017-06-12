@@ -2,6 +2,16 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './styles.css';
 
+const generateLink = (current, target) => {
+  if (target && window && window.parent) {
+    const url = window.parent.location;
+    const path = url.pathname.replace(current, target);
+    return `${url.protocol}//${url.hostname}:${url.port}${path}${url.search}${url.hash}`;
+  }
+
+  return '#';
+};
+
 const Versions = ({
   currentVersion,
   availableVersions,
@@ -13,9 +23,7 @@ const Versions = ({
     return null;
   }
 
-  const url = window.parent.location;
   let counter = 0;
-
   // We are reversing the versions array as the assumption is that
   // newer versions are appended to the bottom of the file
   return (
@@ -25,7 +33,7 @@ const Versions = ({
         <div className="dropdown-content">
           {availableVersions.reverse().map(version => (
             <a
-              href={`${url.protocol}//${url.hostname}:${url.port}/${version}/${url.search}${url.hash}`}
+              href={generateLink(currentVersion, version)}
               target="_parent"
               key={`blabbrVersionLink${counter++}`}
             >

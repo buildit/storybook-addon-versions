@@ -6,6 +6,7 @@
   "scripts": {
     "start": "npm run storybook",
     "storybook": "start-storybook -p 9001 -s ./.storybook",
+    "build-storybook": "build-storybook",
     "lint": "eslint src --ext .js",
     "transpile": "babel ./src --out-dir dist --copy-files",
     "test": "jest",
