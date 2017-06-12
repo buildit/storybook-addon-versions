@@ -30,19 +30,19 @@ exports[`Versions dropdown shows the supplied versions 1`] = `
       className="dropdown-content"
     >
       <a
-        href="about://:/0.0.3/"
+        href="about://:blank"
         target="_parent"
       >
         0.0.3
       </a>
       <a
-        href="about://:/0.0.2/"
+        href="about://:blank"
         target="_parent"
       >
         0.0.2
       </a>
       <a
-        href="about://:/0.0.1/"
+        href="about://:blank"
         target="_parent"
       >
         0.0.1
