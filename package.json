@@ -10,7 +10,8 @@
     "lint": "eslint src --ext .js",
     "transpile": "babel ./src --out-dir dist --copy-files",
     "test": "jest",
-    "build": "npm run lint && npm run test && npm run transpile"
+    "build": "npm run lint && npm run test && npm run transpile",
+    "prepush": "npm run lint && npm test"
   },
   "repository": {
     "type": "git",
@@ -44,6 +45,7 @@
     "eslint-plugin-import": "^2.3.0",
     "eslint-plugin-jsx-a11y": "^5.0.3",
     "eslint-plugin-react": "^7.0.1",
+    "husky": "^0.13.4",
     "jest": "^20.0.4",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
