@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import getConfig from '../api/config';
 import Versions from '../versions';
 
 class StoryWrapper extends React.Component {
@@ -9,49 +10,45 @@ class StoryWrapper extends React.Component {
       commentCount: 0,
       availableVersions: null,
       currentVersion: '',
+      hostname: '',
     };
   }
 
   componentWillMount() {
-    if (window && window.parent) {
+    getConfig().then((data) => {
+      const { availableVersions, regex, hostname } = data;
+      if (availableVersions) {
+        this.setState({
+          availableVersions,
+        });
+      }
+
       const url = window.parent.location;
-      const location = `${url.protocol}//${url.hostname}:${url.port}/storybook-config.json`;
+      let currentVersion = '-';
+      const path = url.pathname;
+      if (path && path !== '/' && regex) {
+        const r = new RegExp(regex, 'i');
+        currentVersion = r.exec(path)[1];
+      }
 
-      fetch(location).then((response) => {
-        if (response.ok) {
-          response.json().then((data) => {
-            if (data && data.storybook && data.storybook.versions) {
-              const { availableVersions, regex } = data.storybook.versions;
-              if (availableVersions) {
-                this.setState({
-                  availableVersions,
-                });
-              }
-
-              let currentVersion = '-';
-              const path = url.pathname;
-              if (path && path !== '/' && regex) {
-                const r = new RegExp(regex, 'i');
-                currentVersion = r.exec(path)[1];
-              }
-
-              this.setState({
-                currentVersion,
-              });
-            }
-          });
-        }
-      }).catch(() => {
-        // Ignore, we're not showing anything anyway.
+      this.setState({
+        currentVersion,
+        hostname,
       });
-    }
+    }).catch(() => {
+      // Ignore, we're not showing anything anyway.
+    });
   }
 
   render() {
-    const { availableVersions, currentVersion } = this.state;
+    const { availableVersions, currentVersion, hostname } = this.state;
     return (
       <div id="versions-storyWrapper">
-        <Versions availableVersions={availableVersions} currentVersion={currentVersion} />
+        <Versions
+          availableVersions={availableVersions}
+          currentVersion={currentVersion}
+          hostname={hostname}
+        />
         <div id="versions-storyWrapper-content">
           {this.props.children}
         </div>

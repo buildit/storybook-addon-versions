@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './styles.css';
 
-const generateLink = (current, target) => {
+const generateLink = (current, target, hostname) => {
   if (target && window && window.parent) {
     const url = window.parent.location;
     const path = url.pathname.replace(current, target);
@@ -15,6 +15,7 @@ const generateLink = (current, target) => {
 const Versions = ({
   currentVersion,
   availableVersions,
+  hostname,
 }) => {
   if (!currentVersion ||
       !availableVersions ||
@@ -33,7 +34,7 @@ const Versions = ({
         <div className="dropdown-content">
           {availableVersions.reverse().map(version => (
             <a
-              href={generateLink(currentVersion, version)}
+              href={generateLink(currentVersion, version, hostname)}
               target="_parent"
               key={`blabbrVersionLink${counter++}`}
             >
@@ -48,11 +49,13 @@ const Versions = ({
 Versions.propTypes = {
   currentVersion: PropTypes.string,
   availableVersions: PropTypes.array,
+  hostname: PropTypes.string,
 };
 
 Versions.defaultProps = {
   currentVersion: '',
   availableVersions: [],
+  hostname: 'localhost',
 };
 
 export default Versions;
