@@ -11,7 +11,7 @@ This addon allows you to navigate different versions of your components, if you 
 
 the addon will allow you to navigate the various versions as follows:
 
-[[https://github.com/buildit/storybook-addon-versions/blob/master/docs/versions-demo.gif]]
+![Versions demo](./docs/versions-demo.gif)
 
 ## Configuration
 
