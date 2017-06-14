@@ -6,7 +6,7 @@ const generateLink = (current, target, hostname) => {
   if (target && window && window.parent) {
     const url = window.parent.location;
     const path = url.pathname.replace(current, target);
-    return `${url.protocol}//${url.hostname}:${url.port}${path}${url.search}${url.hash}`;
+    return `${url.protocol}//${hostname}${path}${url.search}${url.hash}`;
   }
 
   return '#';
