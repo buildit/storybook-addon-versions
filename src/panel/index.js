@@ -70,7 +70,7 @@ export default class Panel extends Component {
 
       if (showLocalhost) {
         versionsList.unshift(
-          <a key={keyCounter++} href={generateLink(currentVersion, '', localhost)}>local dev</a>
+          <a key={keyCounter++} href={generateLink(currentVersion, '', localhost)}>local dev</a>,
         );
       }
     }
