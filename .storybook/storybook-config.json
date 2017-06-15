@@ -2,12 +2,13 @@
   "storybook": {
     "versions": {
       "availableVersions": [
-        "0_0_1",
-        "0_0_2",
-        "0.2.13",
-        "0.3.4"
+        "0.2.4",
+        "0.2.5",
+        "0.2.6",
+        "0.3.0"
       ],
       "hostname": "localhost:8000",
+      "localhost": "localhost:9001",
       "regex": "\/([^\/]+?)\/?$"
     }
   }

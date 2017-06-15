@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import getConfig from '../api/config';
+import getConfig from '../utils/config';
 import Versions from '../versions';
 
 class StoryWrapper extends React.Component {
