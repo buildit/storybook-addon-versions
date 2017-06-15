@@ -1,5 +1,3 @@
-import React from 'react';
-import renderer from 'react-test-renderer'; // eslint-disable-line
 import generateLink from '../generateLink';
 
 global.parent = {
