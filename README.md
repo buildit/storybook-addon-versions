@@ -22,18 +22,33 @@ The versions are expected to be in a file `storybook-config.json` at the root of
 ```
 {
   "storybook": {
-    "versions": [
-      "0.2.4",
-      "0.2.5",
-      "0.2.6",
-      "0.3.0"
-    ],
-    "regex": "\/([^\/]+?)\/?$"
+    "versions": {
+      "availableVersions": [
+        "0.2.4",
+        "0.2.5",
+        "0.2.6",
+        "0.3.0"
+      ],
+      "hostname": "localhost:8000",
+      "localhost": "localhost:9001",
+      "regex": "\/([^\/]+?)\/?$"
+    }
   }
 }
 ```
 
-The `versions` field is just an array of the different available versions. The `regex` field is for a regular expression that will extract the version number for your URL. This is dependant on the way you store the static storybook builds. The example above will work for the format `http://localhost:port/<version>/` so for example, version `0.1.2` would be expected to be found like this `http://mystorybook/0.1.2/`.
+### availableVersions
+An array of available versions.
+
+### hostname
+The hostname of where the static builds are. For now you need to add the path if you are expecting links to 
+work in a local dev build but *not* in your normal hosted config.
+
+### localhost
+Where the local dev build is, when running in dev mode
+
+### regex
+This is for a regular expression that will extract the version number for your URL. This is dependant on the way you store the static storybook builds. The example above will work for the format `http://localhost:port/<version>/` so for example, version `0.1.2` would be expected to be found like this `http://mystorybook/0.1.2/`.
 
 The config format is the same as for [blabbr](https://github.com/buildit/storybook-addon-blabbr).
 

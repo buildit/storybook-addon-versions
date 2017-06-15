@@ -13,7 +13,7 @@ export default class Panel extends Component {
       currentVersion: '',
       hostname: '',
       localhost: '',
-      showLocalhost: false,
+      showLocalhost: this.props.storybook.getQueryParam('versionsDevMode'),
     };
 
     this.devModeChangeHandler = this.devModeChangeHandler.bind(this);
@@ -50,6 +50,9 @@ export default class Panel extends Component {
     this.setState({
       showLocalhost: event.target.checked,
     });
+    this.props.storybook.setQueryParams({
+      versionsDevMode: event.target.checked,
+    });
   }
 
   render() {
@@ -80,16 +83,17 @@ export default class Panel extends Component {
         <input
           type="checkbox"
           id="versionsAddonDevMode"
+          checked={showLocalhost}
           onChange={this.devModeChangeHandler}
         />
         <label htmlFor="versionsAddonDevMode">Developer mode</label>
-        <div className="versions-panel-list">{ versionsList }</div>
+        <div className="versions-panel-list">{versionsList}</div>
       </div>
     );
   }
 }
 
 Panel.propTypes = {
-  channel: PropTypes.object.isRequired,
+  // channel: PropTypes.object.isRequired,
   storybook: PropTypes.object.isRequired,
 };
