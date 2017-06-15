@@ -1,9 +1,9 @@
 import React from 'react';
 import renderer from 'react-test-renderer'; // eslint-disable-line
 import { mount } from 'enzyme'; // eslint-disable-line
-import Panel from './';
+import Panel from '../';
 
-jest.mock('../utils/config');
+jest.mock('../../utils/config');
 
 const storybook = {
   getQueryParam: () => false,
