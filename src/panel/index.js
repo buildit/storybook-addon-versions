@@ -59,6 +59,8 @@ export default class Panel extends Component {
     const { availableVersions, currentVersion, hostname, showLocalhost, localhost } = this.state;
     let versionsList = <p>No versions found</p>;
     let keyCounter = 0;
+    const location = window.parent.location;
+
     if (availableVersions) {
       versionsList = availableVersions.map((version) => {
         if (currentVersion === version) {
@@ -69,7 +71,7 @@ export default class Panel extends Component {
         return (
           <a
             key={keyCounter++}
-            href={generateLink(currentVersion, version, hostname)}
+            href={generateLink(location, currentVersion, version, hostname)}
             className="light-bg with-border"
           >{version}</a>
         );
@@ -79,7 +81,7 @@ export default class Panel extends Component {
         versionsList.unshift(
           <a
             key={keyCounter++}
-            href={generateLink(currentVersion, '', localhost)}
+            href={generateLink(location, currentVersion, '', localhost)}
             className="light-bg with-border"
           >local dev</a>,
         );
