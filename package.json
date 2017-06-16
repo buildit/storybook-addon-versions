@@ -11,7 +11,7 @@
     "transpile": "babel ./src --out-dir dist --copy-files --ignore __tests__,__mocks__,__snapshots__",
     "test": "jest ./src",
     "build": "npm run lint && npm run test && npm run transpile",
-    "prepublish": "npm run build",
+    "prepublish": "npm run transpile",
     "prepush": "npm run lint && npm test"
   },
   "repository": {
