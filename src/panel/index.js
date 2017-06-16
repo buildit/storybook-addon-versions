@@ -88,13 +88,12 @@ export default class Panel extends Component {
 
     return (
       <div className="versions-panel-container">
-        <input
+        <label htmlFor="versionsAddonDevMode"><input
           type="checkbox"
           id="versionsAddonDevMode"
           checked={showLocalhost}
           onChange={this.devModeChangeHandler}
-        />
-        <label htmlFor="versionsAddonDevMode">Developer mode</label>
+        /> Developer mode</label>
         <div className="versions-panel-list">{versionsList}</div>
       </div>
     );

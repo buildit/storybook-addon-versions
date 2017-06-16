@@ -4,16 +4,16 @@ exports[`Panel renders correctly, dev false 1`] = `
 <div
   className="versions-panel-container"
 >
-  <input
-    checked={false}
-    id="versionsAddonDevMode"
-    onChange={[Function]}
-    type="checkbox"
-  />
   <label
     htmlFor="versionsAddonDevMode"
   >
-    Developer mode
+    <input
+      checked={false}
+      id="versionsAddonDevMode"
+      onChange={[Function]}
+      type="checkbox"
+    />
+     Developer mode
   </label>
   <div
     className="versions-panel-list"
@@ -29,16 +29,16 @@ exports[`Panel renders correctly, dev true 1`] = `
 <div
   className="versions-panel-container"
 >
-  <input
-    checked={true}
-    id="versionsAddonDevMode"
-    onChange={[Function]}
-    type="checkbox"
-  />
   <label
     htmlFor="versionsAddonDevMode"
   >
-    Developer mode
+    <input
+      checked={true}
+      id="versionsAddonDevMode"
+      onChange={[Function]}
+      type="checkbox"
+    />
+     Developer mode
   </label>
   <div
     className="versions-panel-list"
