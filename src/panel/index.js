@@ -24,7 +24,7 @@ export default class Panel extends Component {
       const { availableVersions, regex, hostname, localhost } = data;
       if (availableVersions) {
         this.setState({
-          availableVersions,
+          availableVersions: availableVersions.reverse(),
         });
       }
 
@@ -63,17 +63,25 @@ export default class Panel extends Component {
       versionsList = availableVersions.map((version) => {
         if (currentVersion === version) {
           return (
-            <span>{version}</span>
+            <span className="dark-bg with-border">{version}</span>
           );
         }
         return (
-          <a key={keyCounter++} href={generateLink(currentVersion, version, hostname)}>{version}</a>
+          <a
+            key={keyCounter++}
+            href={generateLink(currentVersion, version, hostname)}
+            className="light-bg with-border"
+          >{version}</a>
         );
       });
 
       if (showLocalhost) {
         versionsList.unshift(
-          <a key={keyCounter++} href={generateLink(currentVersion, '', localhost)}>local dev</a>,
+          <a
+            key={keyCounter++}
+            href={generateLink(currentVersion, '', localhost)}
+            className="light-bg with-border"
+          >local dev</a>,
         );
       }
     }

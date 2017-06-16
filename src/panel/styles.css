@@ -1,5 +1,26 @@
 .versions-panel-container {
+  font-family: -apple-system, ".SFNSText-Regular", "San Francisco",
+    Roboto, "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+  font-size: 12px;
+  color: rgb(68, 68, 68);
+  margin: 0;
+  padding: 5px;
+}
 
+.versions-panel-container .light-bg {
+  background-color: white;
+}
+.versions-panel-container .light-bg.with-border {
+  border: 1px solid rgb(236, 236, 236);
+  border-radius: 2px;
+}
+
+.versions-panel-container .dark-bg {
+  background-color: rgb(247, 247, 247);
+}
+.versions-panel-container .dark-bg.with-border {
+  border: 1px solid rgb(193, 193, 193);
+  border-radius: 2px;
 }
 
 .versions-panel-container input {
@@ -7,22 +28,23 @@
 }
 
 .versions-panel-container label {
-
+  margin-left: 0.25em
 }
 
 .versions-panel-container .versions-panel-list {
-
+  font-size: 2em;
 }
 
 .versions-panel-container .versions-panel-list a,
 .versions-panel-container .versions-panel-list span {
+  color: rgb(68, 68, 68);
   display: inline-block;
-  padding: 0.25em;
-  margin: 0 1px 0 0;
+  padding: 0.25em 0.5em;
+  margin: 0.25em 0.25em 0 0;
+  text-decoration: none;
 }
 
-.versions-panel-container .versions-panel-list a {
-}
-
-.versions-panel-container .versions-panel-list span {
+.versions-panel-container .versions-panel-list a:hover {
+  background-color: rgb(247, 247, 247);
+  border: 1px solid rgb(236, 236, 236);
 }
