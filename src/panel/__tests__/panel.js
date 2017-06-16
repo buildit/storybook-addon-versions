@@ -1,6 +1,5 @@
 import React from 'react';
-import renderer from 'react-test-renderer'; // eslint-disable-line
-import { mount } from 'enzyme'; // eslint-disable-line
+import renderer from 'react-test-renderer';
 import Panel from '../';
 
 jest.mock('../../utils/config');
@@ -15,7 +14,6 @@ const storybook2 = {
 };
 
 test('Panel renders correctly, dev false', () => {
-  expect.assertions(1);
   const tree = renderer
     .create(<Panel storybook={storybook} />)
     .toJSON();
@@ -23,7 +21,6 @@ test('Panel renders correctly, dev false', () => {
 });
 
 test('Panel renders correctly, dev true', () => {
-  expect.assertions(1);
   const tree = renderer
     .create(<Panel storybook={storybook2} />)
     .toJSON();
