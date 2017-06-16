@@ -5,11 +5,11 @@ import Panel from '../';
 jest.mock('../../utils/config');
 
 const storybook = {
-  getQueryParam: () => false,
+  getQueryParam: () => 'false',
   setQueryParams: () => {},
 };
 const storybook2 = {
-  getQueryParam: () => true,
+  getQueryParam: () => 'true',
   setQueryParams: () => {},
 };
 
