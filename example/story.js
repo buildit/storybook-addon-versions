@@ -1,6 +1,6 @@
 import React from 'react';
-import { storiesOf, action } from '@kadira/storybook';
+import { storiesOf } from '@storybook/react';
 import Button from './Button';
 
 storiesOf('Button')
-  .add('default button', () => <Button label="The Button" onClick={action('onClick')} />);
+  .add('default button', () => <Button label="The Button" />);

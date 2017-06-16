@@ -1,5 +1,5 @@
 import React from 'react';
-import { configure, setAddon, addDecorator } from '@kadira/storybook';
+import { configure } from '@storybook/react';
 
 // Now go through all the stories in the src tree
 function requireAll(context) {
