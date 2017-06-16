@@ -1,6 +1,6 @@
 {
   "name": "@buildit/storybook-addon-versions",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Navigate different versions of storybook style guides.",
   "main": "dist/register.js",
   "scripts": {
