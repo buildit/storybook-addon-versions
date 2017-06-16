@@ -1,13 +1,16 @@
 const generateLink = (location, current, target, hostname) => {
-  if (target && location && hostname) {
-    let path = '/';
+  if (location && hostname) {
+    let path;
+
     if (current) {
       path = location.pathname.replace(current, target);
-    } else {
+    } else if (target) {
       path = `/${target}/`;
+    } else {
+      path = '/';
     }
-    const result = `${location.protocol}//${hostname}${path}${location.search}${location.hash}`;
-    return result;
+
+    return `${location.protocol}//${hostname}${path}${location.search}${location.hash}`;
   }
 
   return '#';

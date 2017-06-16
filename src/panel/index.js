@@ -13,7 +13,7 @@ export default class Panel extends Component {
       currentVersion: '',
       hostname: '',
       localhost: '',
-      showLocalhost: this.props.storybook.getQueryParam('versionsDevMode'),
+      showLocalhost: (this.props.storybook.getQueryParam('versionsDevMode') === 'true'),
     };
 
     this.devModeChangeHandler = this.devModeChangeHandler.bind(this);
@@ -81,7 +81,7 @@ export default class Panel extends Component {
         versionsList.unshift(
           <a
             key={keyCounter++}
-            href={generateLink(location, currentVersion, '', localhost)}
+            href={generateLink(location, '', '', localhost)}
             className="light-bg with-border"
           >local dev</a>,
         );
