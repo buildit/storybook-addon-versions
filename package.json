@@ -9,7 +9,7 @@
     "build-storybook": "build-storybook",
     "lint": "eslint src --ext .js",
     "transpile": "babel ./src --out-dir dist --copy-files",
-    "test": "jest",
+    "test": "jest ./src",
     "build": "npm run lint && npm run test && npm run transpile",
     "prepublish": "rm -fr dist && npm run transpile",
     "prepush": "npm run lint && npm test"
@@ -42,6 +42,7 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.1",
+    "enzyme": "^2.8.2",
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^15.0.1",
     "eslint-plugin-import": "^2.3.0",
