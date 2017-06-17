@@ -3,10 +3,10 @@
 This addon allows you to navigate different versions of your components, if you have a setup that produces a different static Storybook build for each of your versions. As such, if you build a static Storybook and host it in, say, the following directory structure:
 ```
 - static-storybook
-|-- 0.2.4
+|-- 0.0.1
+|-- 0.0.2
+|-- 0.1.2
 |-- 0.2.5
-|-- 0.2.6
-|-- 0.3.0
 ```
 
 the addon will allow you to navigate the various versions via the `Versions` panel:
@@ -24,10 +24,10 @@ The versions are expected to be in a configuration file `storybook-config.json` 
   "storybook": {
     "versions": {
       "availableVersions": [
-        "0.2.4",
-        "0.2.5",
-        "0.2.6",
-        "0.3.0"
+        "0.0.1",
+        "0.0.2",
+        "0.1.2",
+        "0.2.5"
       ],
       "hostname": "localhost:8000",
       "localhost": "localhost:9001",
