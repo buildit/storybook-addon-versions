@@ -64,6 +64,7 @@
   },
   "jest": {
     "coverageDirectory": "reports",
+    "collectCoverageFrom" : ["src/**/*.{js,jsx}", "!src/register.js"],
     "moduleNameMapper": {
       "\\.css$": "<rootDir>/__mocks__/styleMock.js"
     }
