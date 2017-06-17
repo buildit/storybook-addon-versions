@@ -23,6 +23,11 @@ test('Generates # link when no args (location, current, target)', () => {
   expect(generateLink(location, 'current', 'target')).toBe('#');
 });
 
+test('Generates correct links (location, "", "", hostname)', () => {
+  expect(generateLink(location, '', '', 'jest_hostname'))
+    .toBe('https://jest_hostname/?search_fieldhash_field');
+});
+
 test('Generates correct links (location, "", target, hostname)', () => {
   expect(generateLink(location, '', '1.2.3', 'jest_hostname'))
     .toBe('https://jest_hostname/1.2.3/?search_fieldhash_field');

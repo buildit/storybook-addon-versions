@@ -4,16 +4,12 @@ import Panel from '../';
 
 jest.mock('../../utils/config');
 
-const storybook = {
-  getQueryParam: () => 'false',
-  setQueryParams: () => {},
-};
-const storybook2 = {
-  getQueryParam: () => 'true',
-  setQueryParams: () => {},
-};
-
 test('Panel renders correctly, dev false', () => {
+  const storybook = {
+    getQueryParam: () => 'false',
+    setQueryParams: () => {},
+  };
+
   const tree = renderer
     .create(<Panel storybook={storybook} />)
     .toJSON();
@@ -21,8 +17,13 @@ test('Panel renders correctly, dev false', () => {
 });
 
 test('Panel renders correctly, dev true', () => {
+  const storybook = {
+    getQueryParam: () => 'true',
+    setQueryParams: () => {},
+  };
+
   const tree = renderer
-    .create(<Panel storybook={storybook2} />)
+    .create(<Panel storybook={storybook} />)
     .toJSON();
   expect(tree).toMatchSnapshot();
 });

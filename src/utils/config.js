@@ -1,12 +1,12 @@
 let configFile = null;
 
-const getConfig = () => (
+const getConfig = (filename = 'storybook-config.json') => (
   new Promise((resolve, reject) => {
     if (configFile) {
       resolve(configFile);
     } else if (window && window.parent) {
       const url = window.parent.location;
-      const location = `${url.protocol}//${url.hostname}:${url.port}/storybook-config.json`;
+      const location = `${url.protocol}//${url.hostname}:${url.port}/${filename}`;
 
       fetch(location).then((response) => {
         if (response.ok) {
