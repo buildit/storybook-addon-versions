@@ -25,6 +25,10 @@ const file2 = {
   },
 };
 
+const invalid = {
+  foo: 'bar',
+};
+
 describe('API', () => {
   beforeAll(() => {
     global.fetch = jest.fn().mockImplementation((location) => {
@@ -43,6 +47,20 @@ describe('API', () => {
             json: () => new Promise(res => res(file2)),
           });
         });
+      } else if (location.search('invalid.json') !== -1) {
+        p = new Promise((resolve) => {
+          resolve({
+            ok: true,
+            json: () => new Promise(res => res(invalid)),
+          });
+        });
+      } else if (location.search('response_not_ok.json') !== -1) {
+        p = new Promise((resolve) => {
+          resolve({
+            ok: false,
+            json: () => new Promise(res => res(invalid)),
+          });
+        });
       } else {
         p = new Promise((resolve, reject) => reject());
       }
@@ -58,13 +76,32 @@ describe('API', () => {
     await expect(getConfig()).resolves.toEqual(file1.storybook.versions);
   });
 
-  xit('Get the specified config when a filename is supplied', async () => {
+  it('Get the specified config when a filename is supplied', async () => {
     expect.assertions(1);
     await expect(getConfig('filename.json')).resolves.toEqual(file2.storybook.versions);
   });
 
-  xit('Throw an error when an invalid file is requested', async () => {
+  it('Throws an error when the config is inavlid', async () => {
+    expect.assertions(1);
+    await expect(getConfig('invalid.json')).rejects.toEqual('Invalid config');
+  });
+
+  it('Throws an error when the response is not ok', async () => {
+    expect.assertions(1);
+    await expect(getConfig('response_not_ok.json')).rejects.toEqual('Response not ok');
+  });
+
+  it('Throw an error when an invalid file is requested', async () => {
     expect.assertions(1);
     await expect(getConfig('error.json')).rejects.toEqual('Error getting config');
+  });
+
+  it('Caches the results if the same file is requested', async () => {
+    expect.assertions(4);
+    const initVal = fetch.mock.calls.length;
+    await expect(getConfig('filename.json')).resolves.toEqual(file2.storybook.versions);
+    expect(fetch.mock.calls.length).toBe(1 + initVal);
+    await expect(getConfig('filename.json')).resolves.toEqual(file2.storybook.versions);
+    expect(fetch.mock.calls.length).toBe(1 + initVal);
   });
 });
