@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Panel renders correctly, dev false 1`] = `
+exports[`Panel Panel renders correctly, dev false 1`] = `
 <div
   className="versions-panel-container"
 >
@@ -25,7 +25,7 @@ exports[`Panel renders correctly, dev false 1`] = `
 </div>
 `;
 
-exports[`Panel renders correctly, dev true 1`] = `
+exports[`Panel Panel renders correctly, dev true 1`] = `
 <div
   className="versions-panel-container"
 >

@@ -33,7 +33,10 @@ export default class Panel extends Component {
       const path = url.pathname;
       if (path && path !== '/' && regex) {
         const r = new RegExp(regex, 'i');
-        currentVersion = r.exec(path)[1];
+        const result = r.exec(path);
+        if (result && result.length > 0) {
+          currentVersion = r.exec(path)[1];
+        }
       }
 
       this.setState({

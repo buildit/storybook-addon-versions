@@ -29,7 +29,7 @@ const invalid = {
   foo: 'bar',
 };
 
-describe('API', () => {
+describe('Config', () => {
   beforeAll(() => {
     global.fetch = jest.fn().mockImplementation((location) => {
       let p;
