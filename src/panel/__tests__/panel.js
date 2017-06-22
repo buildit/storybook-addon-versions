@@ -1,7 +1,6 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { shallow } from 'enzyme';
-import toJson from 'enzyme-to-json';
 import Panel from '../';
 
 jest.mock('../../utils/config');
