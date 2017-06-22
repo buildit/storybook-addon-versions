@@ -19,7 +19,7 @@ const getConfig = (filename = 'storybook-config.json') => (
             }
           });
         } else {
-          reject('Error getting config');
+          reject('Response not ok');
         }
       }).catch(() => {
         reject('Error getting config');
