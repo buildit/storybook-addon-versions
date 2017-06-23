@@ -5,39 +5,68 @@ import Panel from '../';
 
 jest.mock('../../utils/config');
 
+const location = {
+  pathname: '/0.2.5/',
+  hash: '',
+  search: '',
+};
+
 describe('Panel', () => {
-  it('Panel renders correctly, dev true', () => {
+  it('Panel renders correctly, no versions (dev true)', () => {
     const storybook = {
       getQueryParam: () => 'true',
       setQueryParams: () => {},
     };
 
     const tree = renderer
-      .create(<Panel storybook={storybook} />)
+      .create(<Panel storybook={storybook} location={location} />)
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
 
-  it('Panel renders correctly, dev false', () => {
+  it('Panel renders correctly, no versions (dev false)', () => {
     const storybook = {
       getQueryParam: () => 'false',
       setQueryParams: () => {},
     };
 
     const tree = renderer
-      .create(<Panel storybook={storybook} />)
+      .create(<Panel storybook={storybook} location={location} />)
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
 
-  it('Panel renders correctly, dev false, versions', async () => {
+  it('Panel renders versions (dev false)', async () => {
     const storybook = {
       getQueryParam: () => 'false',
       setQueryParams: () => {},
     };
 
-    expect.assertions(1);
-    const wrapper = await shallow(<Panel storybook={storybook} />);
-    expect(wrapper.find('a').length).toBe(4);
+    const wrapper = await shallow(<Panel storybook={storybook} location={location} />);
+    expect(wrapper.render()).toMatchSnapshot();
+  });
+
+  it('Panel renders versions (dev true)', async () => {
+    const storybook = {
+      getQueryParam: () => 'true',
+      setQueryParams: () => {},
+    };
+
+    const wrapper = await shallow(<Panel storybook={storybook} location={location} />);
+    expect(wrapper.render()).toMatchSnapshot();
+  });
+
+  it('Toggles dev mode', async () => {
+    const storybook = {
+      getQueryParam: () => 'true',
+      setQueryParams: () => {},
+    };
+
+    const wrapper = await shallow(<Panel storybook={storybook} location={location} />);
+    const linksFound = wrapper.find('a').length;
+    wrapper.find('#versionsAddonDevMode').simulate('change');
+    expect(wrapper.find('a').length).toBe(linksFound - 1);
+    wrapper.find('#versionsAddonDevMode').simulate('change');
+    expect(wrapper.find('a').length).toBe(linksFound);
   });
 });

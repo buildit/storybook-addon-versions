@@ -28,14 +28,14 @@ export default class Panel extends Component {
         });
       }
 
-      const url = window.parent.location;
+      const url = this.props.location;
       let currentVersion = '';
       const path = url.pathname;
       if (path && path !== '/' && regex) {
         const r = new RegExp(regex, 'i');
         const result = r.exec(path);
         if (result && result.length > 0) {
-          currentVersion = r.exec(path)[1];
+          currentVersion = result[1];
         }
       }
 
@@ -49,26 +49,29 @@ export default class Panel extends Component {
     });
   }
 
-  devModeChangeHandler(event) {
+  devModeChangeHandler() {
+    const newVal = !this.state.showLocalhost;
+
     this.setState({
-      showLocalhost: event.target.checked,
+      showLocalhost: newVal,
     });
     this.props.storybook.setQueryParams({
-      versionsDevMode: event.target.checked,
+      versionsDevMode: newVal,
     });
   }
 
   render() {
     const { availableVersions, currentVersion, hostname, showLocalhost, localhost } = this.state;
     let versionsList = <p>No versions found</p>;
-    let keyCounter = 0;
-    const location = window.parent.location;
+    const location = this.props.location;
 
     if (availableVersions) {
+      let keyCounter = 0;
+
       versionsList = availableVersions.map((version) => {
         if (currentVersion === version) {
           return (
-            <span className="dark-bg with-border">{version}</span>
+            <span className="dark-bg with-border" key={keyCounter++}>{version}</span>
           );
         }
         return (
@@ -108,4 +111,5 @@ export default class Panel extends Component {
 Panel.propTypes = {
   // channel: PropTypes.object.isRequired,
   storybook: PropTypes.object.isRequired,
+  location: PropTypes.object.isRequired,
 };

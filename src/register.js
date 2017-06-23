@@ -7,6 +7,13 @@ addons.register('buildit/versions', (api) => {
 
   addons.addPanel('buildit/versions', {
     title: 'versions',
-    render: () => <Panel channel={channel} storybook={api} key="versions-panel" />,
+    render: () => (
+      <Panel
+        channel={channel}
+        storybook={api}
+        key="versions-panel"
+        location={window.parent.location}
+      />
+    ),
   });
 });

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Panel Panel renders correctly, dev false 1`] = `
+exports[`Panel Panel renders correctly, no versions (dev false) 1`] = `
 <div
   className="versions-panel-container"
 >
@@ -25,7 +25,7 @@ exports[`Panel Panel renders correctly, dev false 1`] = `
 </div>
 `;
 
-exports[`Panel Panel renders correctly, dev true 1`] = `
+exports[`Panel Panel renders correctly, no versions (dev true) 1`] = `
 <div
   className="versions-panel-container"
 >
@@ -48,4 +48,1874 @@ exports[`Panel Panel renders correctly, dev true 1`] = `
     </p>
   </div>
 </div>
+`;
+
+exports[`Panel Panel renders versions (dev false) 1`] = `
+initialize {
+  "0": Object {
+    "attribs": Object {},
+    "children": Array [
+      Object {
+        "attribs": Object {
+          "class": "versions-panel-container",
+        },
+        "children": Array [
+          Object {
+            "attribs": Object {
+              "for": "versionsAddonDevMode",
+            },
+            "children": Array [
+              Object {
+                "attribs": Object {
+                  "id": "versionsAddonDevMode",
+                  "type": "checkbox",
+                },
+                "children": Array [],
+                "name": "input",
+                "next": Object {
+                  "data": " Developer mode",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": [Circular],
+                  "type": "text",
+                },
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+              },
+              Object {
+                "data": " Developer mode",
+                "next": null,
+                "parent": [Circular],
+                "prev": Object {
+                  "attribs": Object {
+                    "id": "versionsAddonDevMode",
+                    "type": "checkbox",
+                  },
+                  "children": Array [],
+                  "name": "input",
+                  "next": [Circular],
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                },
+                "type": "text",
+              },
+            ],
+            "name": "label",
+            "next": Object {
+              "attribs": Object {
+                "class": "versions-panel-list",
+              },
+              "children": Array [
+                Object {
+                  "attribs": Object {
+                    "class": "light-bg with-border",
+                    "href": "undefined//localhost:8000/0.3.0/",
+                  },
+                  "children": Array [
+                    Object {
+                      "data": "0.3.0",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "a",
+                  "next": Object {
+                    "attribs": Object {
+                      "class": "light-bg with-border",
+                      "href": "undefined//localhost:8000/0.2.6/",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "0.2.6",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "a",
+                    "next": Object {
+                      "attribs": Object {
+                        "class": "dark-bg with-border",
+                      },
+                      "children": Array [
+                        Object {
+                          "data": "0.2.5",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "span",
+                      "next": Object {
+                        "attribs": Object {
+                          "class": "light-bg with-border",
+                          "href": "undefined//localhost:8000/0.2.4/",
+                        },
+                        "children": Array [
+                          Object {
+                            "data": "0.2.4",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "text",
+                          },
+                        ],
+                        "name": "a",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": [Circular],
+                        "type": "tag",
+                      },
+                      "parent": [Circular],
+                      "prev": [Circular],
+                      "type": "tag",
+                    },
+                    "parent": [Circular],
+                    "prev": [Circular],
+                    "type": "tag",
+                  },
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                },
+                Object {
+                  "attribs": Object {
+                    "class": "light-bg with-border",
+                    "href": "undefined//localhost:8000/0.2.6/",
+                  },
+                  "children": Array [
+                    Object {
+                      "data": "0.2.6",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "a",
+                  "next": Object {
+                    "attribs": Object {
+                      "class": "dark-bg with-border",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "0.2.5",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "span",
+                    "next": Object {
+                      "attribs": Object {
+                        "class": "light-bg with-border",
+                        "href": "undefined//localhost:8000/0.2.4/",
+                      },
+                      "children": Array [
+                        Object {
+                          "data": "0.2.4",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "a",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": [Circular],
+                      "type": "tag",
+                    },
+                    "parent": [Circular],
+                    "prev": [Circular],
+                    "type": "tag",
+                  },
+                  "parent": [Circular],
+                  "prev": Object {
+                    "attribs": Object {
+                      "class": "light-bg with-border",
+                      "href": "undefined//localhost:8000/0.3.0/",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "0.3.0",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "a",
+                    "next": [Circular],
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                  },
+                  "type": "tag",
+                },
+                Object {
+                  "attribs": Object {
+                    "class": "dark-bg with-border",
+                  },
+                  "children": Array [
+                    Object {
+                      "data": "0.2.5",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "span",
+                  "next": Object {
+                    "attribs": Object {
+                      "class": "light-bg with-border",
+                      "href": "undefined//localhost:8000/0.2.4/",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "0.2.4",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "a",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": [Circular],
+                    "type": "tag",
+                  },
+                  "parent": [Circular],
+                  "prev": Object {
+                    "attribs": Object {
+                      "class": "light-bg with-border",
+                      "href": "undefined//localhost:8000/0.2.6/",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "0.2.6",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "a",
+                    "next": [Circular],
+                    "parent": [Circular],
+                    "prev": Object {
+                      "attribs": Object {
+                        "class": "light-bg with-border",
+                        "href": "undefined//localhost:8000/0.3.0/",
+                      },
+                      "children": Array [
+                        Object {
+                          "data": "0.3.0",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "a",
+                      "next": [Circular],
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                    },
+                    "type": "tag",
+                  },
+                  "type": "tag",
+                },
+                Object {
+                  "attribs": Object {
+                    "class": "light-bg with-border",
+                    "href": "undefined//localhost:8000/0.2.4/",
+                  },
+                  "children": Array [
+                    Object {
+                      "data": "0.2.4",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "a",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": Object {
+                    "attribs": Object {
+                      "class": "dark-bg with-border",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "0.2.5",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "span",
+                    "next": [Circular],
+                    "parent": [Circular],
+                    "prev": Object {
+                      "attribs": Object {
+                        "class": "light-bg with-border",
+                        "href": "undefined//localhost:8000/0.2.6/",
+                      },
+                      "children": Array [
+                        Object {
+                          "data": "0.2.6",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "a",
+                      "next": [Circular],
+                      "parent": [Circular],
+                      "prev": Object {
+                        "attribs": Object {
+                          "class": "light-bg with-border",
+                          "href": "undefined//localhost:8000/0.3.0/",
+                        },
+                        "children": Array [
+                          Object {
+                            "data": "0.3.0",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "text",
+                          },
+                        ],
+                        "name": "a",
+                        "next": [Circular],
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                      },
+                      "type": "tag",
+                    },
+                    "type": "tag",
+                  },
+                  "type": "tag",
+                },
+              ],
+              "name": "div",
+              "next": null,
+              "parent": [Circular],
+              "prev": [Circular],
+              "type": "tag",
+            },
+            "parent": [Circular],
+            "prev": null,
+            "type": "tag",
+          },
+          Object {
+            "attribs": Object {
+              "class": "versions-panel-list",
+            },
+            "children": Array [
+              Object {
+                "attribs": Object {
+                  "class": "light-bg with-border",
+                  "href": "undefined//localhost:8000/0.3.0/",
+                },
+                "children": Array [
+                  Object {
+                    "data": "0.3.0",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "a",
+                "next": Object {
+                  "attribs": Object {
+                    "class": "light-bg with-border",
+                    "href": "undefined//localhost:8000/0.2.6/",
+                  },
+                  "children": Array [
+                    Object {
+                      "data": "0.2.6",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "a",
+                  "next": Object {
+                    "attribs": Object {
+                      "class": "dark-bg with-border",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "0.2.5",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "span",
+                    "next": Object {
+                      "attribs": Object {
+                        "class": "light-bg with-border",
+                        "href": "undefined//localhost:8000/0.2.4/",
+                      },
+                      "children": Array [
+                        Object {
+                          "data": "0.2.4",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "a",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": [Circular],
+                      "type": "tag",
+                    },
+                    "parent": [Circular],
+                    "prev": [Circular],
+                    "type": "tag",
+                  },
+                  "parent": [Circular],
+                  "prev": [Circular],
+                  "type": "tag",
+                },
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+              },
+              Object {
+                "attribs": Object {
+                  "class": "light-bg with-border",
+                  "href": "undefined//localhost:8000/0.2.6/",
+                },
+                "children": Array [
+                  Object {
+                    "data": "0.2.6",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "a",
+                "next": Object {
+                  "attribs": Object {
+                    "class": "dark-bg with-border",
+                  },
+                  "children": Array [
+                    Object {
+                      "data": "0.2.5",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "span",
+                  "next": Object {
+                    "attribs": Object {
+                      "class": "light-bg with-border",
+                      "href": "undefined//localhost:8000/0.2.4/",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "0.2.4",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "a",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": [Circular],
+                    "type": "tag",
+                  },
+                  "parent": [Circular],
+                  "prev": [Circular],
+                  "type": "tag",
+                },
+                "parent": [Circular],
+                "prev": Object {
+                  "attribs": Object {
+                    "class": "light-bg with-border",
+                    "href": "undefined//localhost:8000/0.3.0/",
+                  },
+                  "children": Array [
+                    Object {
+                      "data": "0.3.0",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "a",
+                  "next": [Circular],
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                },
+                "type": "tag",
+              },
+              Object {
+                "attribs": Object {
+                  "class": "dark-bg with-border",
+                },
+                "children": Array [
+                  Object {
+                    "data": "0.2.5",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "span",
+                "next": Object {
+                  "attribs": Object {
+                    "class": "light-bg with-border",
+                    "href": "undefined//localhost:8000/0.2.4/",
+                  },
+                  "children": Array [
+                    Object {
+                      "data": "0.2.4",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "a",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": [Circular],
+                  "type": "tag",
+                },
+                "parent": [Circular],
+                "prev": Object {
+                  "attribs": Object {
+                    "class": "light-bg with-border",
+                    "href": "undefined//localhost:8000/0.2.6/",
+                  },
+                  "children": Array [
+                    Object {
+                      "data": "0.2.6",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "a",
+                  "next": [Circular],
+                  "parent": [Circular],
+                  "prev": Object {
+                    "attribs": Object {
+                      "class": "light-bg with-border",
+                      "href": "undefined//localhost:8000/0.3.0/",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "0.3.0",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "a",
+                    "next": [Circular],
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                  },
+                  "type": "tag",
+                },
+                "type": "tag",
+              },
+              Object {
+                "attribs": Object {
+                  "class": "light-bg with-border",
+                  "href": "undefined//localhost:8000/0.2.4/",
+                },
+                "children": Array [
+                  Object {
+                    "data": "0.2.4",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "a",
+                "next": null,
+                "parent": [Circular],
+                "prev": Object {
+                  "attribs": Object {
+                    "class": "dark-bg with-border",
+                  },
+                  "children": Array [
+                    Object {
+                      "data": "0.2.5",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "span",
+                  "next": [Circular],
+                  "parent": [Circular],
+                  "prev": Object {
+                    "attribs": Object {
+                      "class": "light-bg with-border",
+                      "href": "undefined//localhost:8000/0.2.6/",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "0.2.6",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "a",
+                    "next": [Circular],
+                    "parent": [Circular],
+                    "prev": Object {
+                      "attribs": Object {
+                        "class": "light-bg with-border",
+                        "href": "undefined//localhost:8000/0.3.0/",
+                      },
+                      "children": Array [
+                        Object {
+                          "data": "0.3.0",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "a",
+                      "next": [Circular],
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                    },
+                    "type": "tag",
+                  },
+                  "type": "tag",
+                },
+                "type": "tag",
+              },
+            ],
+            "name": "div",
+            "next": null,
+            "parent": [Circular],
+            "prev": Object {
+              "attribs": Object {
+                "for": "versionsAddonDevMode",
+              },
+              "children": Array [
+                Object {
+                  "attribs": Object {
+                    "id": "versionsAddonDevMode",
+                    "type": "checkbox",
+                  },
+                  "children": Array [],
+                  "name": "input",
+                  "next": Object {
+                    "data": " Developer mode",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": [Circular],
+                    "type": "text",
+                  },
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                },
+                Object {
+                  "data": " Developer mode",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": Object {
+                    "attribs": Object {
+                      "id": "versionsAddonDevMode",
+                      "type": "checkbox",
+                    },
+                    "children": Array [],
+                    "name": "input",
+                    "next": [Circular],
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                  },
+                  "type": "text",
+                },
+              ],
+              "name": "label",
+              "next": [Circular],
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+            },
+            "type": "tag",
+          },
+        ],
+        "name": "div",
+        "next": null,
+        "parent": null,
+        "prev": null,
+        "root": [Circular],
+        "type": "tag",
+      },
+    ],
+    "name": "root",
+    "next": null,
+    "parent": null,
+    "prev": null,
+    "type": "root",
+  },
+  "_root": [Circular],
+  "length": 1,
+  "options": Object {
+    "decodeEntities": true,
+    "normalizeWhitespace": false,
+    "withDomLvl1": true,
+    "xmlMode": false,
+  },
+}
+`;
+
+exports[`Panel Panel renders versions (dev true) 1`] = `
+initialize {
+  "0": Object {
+    "attribs": Object {},
+    "children": Array [
+      Object {
+        "attribs": Object {
+          "class": "versions-panel-container",
+        },
+        "children": Array [
+          Object {
+            "attribs": Object {
+              "for": "versionsAddonDevMode",
+            },
+            "children": Array [
+              Object {
+                "attribs": Object {
+                  "checked": "",
+                  "id": "versionsAddonDevMode",
+                  "type": "checkbox",
+                },
+                "children": Array [],
+                "name": "input",
+                "next": Object {
+                  "data": " Developer mode",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": [Circular],
+                  "type": "text",
+                },
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+              },
+              Object {
+                "data": " Developer mode",
+                "next": null,
+                "parent": [Circular],
+                "prev": Object {
+                  "attribs": Object {
+                    "checked": "",
+                    "id": "versionsAddonDevMode",
+                    "type": "checkbox",
+                  },
+                  "children": Array [],
+                  "name": "input",
+                  "next": [Circular],
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                },
+                "type": "text",
+              },
+            ],
+            "name": "label",
+            "next": Object {
+              "attribs": Object {
+                "class": "versions-panel-list",
+              },
+              "children": Array [
+                Object {
+                  "attribs": Object {
+                    "class": "light-bg with-border",
+                    "href": "undefined//localhost:9001/",
+                  },
+                  "children": Array [
+                    Object {
+                      "data": "local dev",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "a",
+                  "next": Object {
+                    "attribs": Object {
+                      "class": "light-bg with-border",
+                      "href": "undefined//localhost:8000/0.2.4/",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "0.2.4",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "a",
+                    "next": Object {
+                      "attribs": Object {
+                        "class": "dark-bg with-border",
+                      },
+                      "children": Array [
+                        Object {
+                          "data": "0.2.5",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "span",
+                      "next": Object {
+                        "attribs": Object {
+                          "class": "light-bg with-border",
+                          "href": "undefined//localhost:8000/0.2.6/",
+                        },
+                        "children": Array [
+                          Object {
+                            "data": "0.2.6",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "text",
+                          },
+                        ],
+                        "name": "a",
+                        "next": Object {
+                          "attribs": Object {
+                            "class": "light-bg with-border",
+                            "href": "undefined//localhost:8000/0.3.0/",
+                          },
+                          "children": Array [
+                            Object {
+                              "data": "0.3.0",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "text",
+                            },
+                          ],
+                          "name": "a",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": [Circular],
+                          "type": "tag",
+                        },
+                        "parent": [Circular],
+                        "prev": [Circular],
+                        "type": "tag",
+                      },
+                      "parent": [Circular],
+                      "prev": [Circular],
+                      "type": "tag",
+                    },
+                    "parent": [Circular],
+                    "prev": [Circular],
+                    "type": "tag",
+                  },
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                },
+                Object {
+                  "attribs": Object {
+                    "class": "light-bg with-border",
+                    "href": "undefined//localhost:8000/0.2.4/",
+                  },
+                  "children": Array [
+                    Object {
+                      "data": "0.2.4",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "a",
+                  "next": Object {
+                    "attribs": Object {
+                      "class": "dark-bg with-border",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "0.2.5",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "span",
+                    "next": Object {
+                      "attribs": Object {
+                        "class": "light-bg with-border",
+                        "href": "undefined//localhost:8000/0.2.6/",
+                      },
+                      "children": Array [
+                        Object {
+                          "data": "0.2.6",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "a",
+                      "next": Object {
+                        "attribs": Object {
+                          "class": "light-bg with-border",
+                          "href": "undefined//localhost:8000/0.3.0/",
+                        },
+                        "children": Array [
+                          Object {
+                            "data": "0.3.0",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "text",
+                          },
+                        ],
+                        "name": "a",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": [Circular],
+                        "type": "tag",
+                      },
+                      "parent": [Circular],
+                      "prev": [Circular],
+                      "type": "tag",
+                    },
+                    "parent": [Circular],
+                    "prev": [Circular],
+                    "type": "tag",
+                  },
+                  "parent": [Circular],
+                  "prev": Object {
+                    "attribs": Object {
+                      "class": "light-bg with-border",
+                      "href": "undefined//localhost:9001/",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "local dev",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "a",
+                    "next": [Circular],
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                  },
+                  "type": "tag",
+                },
+                Object {
+                  "attribs": Object {
+                    "class": "dark-bg with-border",
+                  },
+                  "children": Array [
+                    Object {
+                      "data": "0.2.5",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "span",
+                  "next": Object {
+                    "attribs": Object {
+                      "class": "light-bg with-border",
+                      "href": "undefined//localhost:8000/0.2.6/",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "0.2.6",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "a",
+                    "next": Object {
+                      "attribs": Object {
+                        "class": "light-bg with-border",
+                        "href": "undefined//localhost:8000/0.3.0/",
+                      },
+                      "children": Array [
+                        Object {
+                          "data": "0.3.0",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "a",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": [Circular],
+                      "type": "tag",
+                    },
+                    "parent": [Circular],
+                    "prev": [Circular],
+                    "type": "tag",
+                  },
+                  "parent": [Circular],
+                  "prev": Object {
+                    "attribs": Object {
+                      "class": "light-bg with-border",
+                      "href": "undefined//localhost:8000/0.2.4/",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "0.2.4",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "a",
+                    "next": [Circular],
+                    "parent": [Circular],
+                    "prev": Object {
+                      "attribs": Object {
+                        "class": "light-bg with-border",
+                        "href": "undefined//localhost:9001/",
+                      },
+                      "children": Array [
+                        Object {
+                          "data": "local dev",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "a",
+                      "next": [Circular],
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                    },
+                    "type": "tag",
+                  },
+                  "type": "tag",
+                },
+                Object {
+                  "attribs": Object {
+                    "class": "light-bg with-border",
+                    "href": "undefined//localhost:8000/0.2.6/",
+                  },
+                  "children": Array [
+                    Object {
+                      "data": "0.2.6",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "a",
+                  "next": Object {
+                    "attribs": Object {
+                      "class": "light-bg with-border",
+                      "href": "undefined//localhost:8000/0.3.0/",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "0.3.0",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "a",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": [Circular],
+                    "type": "tag",
+                  },
+                  "parent": [Circular],
+                  "prev": Object {
+                    "attribs": Object {
+                      "class": "dark-bg with-border",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "0.2.5",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "span",
+                    "next": [Circular],
+                    "parent": [Circular],
+                    "prev": Object {
+                      "attribs": Object {
+                        "class": "light-bg with-border",
+                        "href": "undefined//localhost:8000/0.2.4/",
+                      },
+                      "children": Array [
+                        Object {
+                          "data": "0.2.4",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "a",
+                      "next": [Circular],
+                      "parent": [Circular],
+                      "prev": Object {
+                        "attribs": Object {
+                          "class": "light-bg with-border",
+                          "href": "undefined//localhost:9001/",
+                        },
+                        "children": Array [
+                          Object {
+                            "data": "local dev",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "text",
+                          },
+                        ],
+                        "name": "a",
+                        "next": [Circular],
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                      },
+                      "type": "tag",
+                    },
+                    "type": "tag",
+                  },
+                  "type": "tag",
+                },
+                Object {
+                  "attribs": Object {
+                    "class": "light-bg with-border",
+                    "href": "undefined//localhost:8000/0.3.0/",
+                  },
+                  "children": Array [
+                    Object {
+                      "data": "0.3.0",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "a",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": Object {
+                    "attribs": Object {
+                      "class": "light-bg with-border",
+                      "href": "undefined//localhost:8000/0.2.6/",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "0.2.6",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "a",
+                    "next": [Circular],
+                    "parent": [Circular],
+                    "prev": Object {
+                      "attribs": Object {
+                        "class": "dark-bg with-border",
+                      },
+                      "children": Array [
+                        Object {
+                          "data": "0.2.5",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "span",
+                      "next": [Circular],
+                      "parent": [Circular],
+                      "prev": Object {
+                        "attribs": Object {
+                          "class": "light-bg with-border",
+                          "href": "undefined//localhost:8000/0.2.4/",
+                        },
+                        "children": Array [
+                          Object {
+                            "data": "0.2.4",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "text",
+                          },
+                        ],
+                        "name": "a",
+                        "next": [Circular],
+                        "parent": [Circular],
+                        "prev": Object {
+                          "attribs": Object {
+                            "class": "light-bg with-border",
+                            "href": "undefined//localhost:9001/",
+                          },
+                          "children": Array [
+                            Object {
+                              "data": "local dev",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "text",
+                            },
+                          ],
+                          "name": "a",
+                          "next": [Circular],
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                        },
+                        "type": "tag",
+                      },
+                      "type": "tag",
+                    },
+                    "type": "tag",
+                  },
+                  "type": "tag",
+                },
+              ],
+              "name": "div",
+              "next": null,
+              "parent": [Circular],
+              "prev": [Circular],
+              "type": "tag",
+            },
+            "parent": [Circular],
+            "prev": null,
+            "type": "tag",
+          },
+          Object {
+            "attribs": Object {
+              "class": "versions-panel-list",
+            },
+            "children": Array [
+              Object {
+                "attribs": Object {
+                  "class": "light-bg with-border",
+                  "href": "undefined//localhost:9001/",
+                },
+                "children": Array [
+                  Object {
+                    "data": "local dev",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "a",
+                "next": Object {
+                  "attribs": Object {
+                    "class": "light-bg with-border",
+                    "href": "undefined//localhost:8000/0.2.4/",
+                  },
+                  "children": Array [
+                    Object {
+                      "data": "0.2.4",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "a",
+                  "next": Object {
+                    "attribs": Object {
+                      "class": "dark-bg with-border",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "0.2.5",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "span",
+                    "next": Object {
+                      "attribs": Object {
+                        "class": "light-bg with-border",
+                        "href": "undefined//localhost:8000/0.2.6/",
+                      },
+                      "children": Array [
+                        Object {
+                          "data": "0.2.6",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "a",
+                      "next": Object {
+                        "attribs": Object {
+                          "class": "light-bg with-border",
+                          "href": "undefined//localhost:8000/0.3.0/",
+                        },
+                        "children": Array [
+                          Object {
+                            "data": "0.3.0",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "text",
+                          },
+                        ],
+                        "name": "a",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": [Circular],
+                        "type": "tag",
+                      },
+                      "parent": [Circular],
+                      "prev": [Circular],
+                      "type": "tag",
+                    },
+                    "parent": [Circular],
+                    "prev": [Circular],
+                    "type": "tag",
+                  },
+                  "parent": [Circular],
+                  "prev": [Circular],
+                  "type": "tag",
+                },
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+              },
+              Object {
+                "attribs": Object {
+                  "class": "light-bg with-border",
+                  "href": "undefined//localhost:8000/0.2.4/",
+                },
+                "children": Array [
+                  Object {
+                    "data": "0.2.4",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "a",
+                "next": Object {
+                  "attribs": Object {
+                    "class": "dark-bg with-border",
+                  },
+                  "children": Array [
+                    Object {
+                      "data": "0.2.5",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "span",
+                  "next": Object {
+                    "attribs": Object {
+                      "class": "light-bg with-border",
+                      "href": "undefined//localhost:8000/0.2.6/",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "0.2.6",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "a",
+                    "next": Object {
+                      "attribs": Object {
+                        "class": "light-bg with-border",
+                        "href": "undefined//localhost:8000/0.3.0/",
+                      },
+                      "children": Array [
+                        Object {
+                          "data": "0.3.0",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "a",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": [Circular],
+                      "type": "tag",
+                    },
+                    "parent": [Circular],
+                    "prev": [Circular],
+                    "type": "tag",
+                  },
+                  "parent": [Circular],
+                  "prev": [Circular],
+                  "type": "tag",
+                },
+                "parent": [Circular],
+                "prev": Object {
+                  "attribs": Object {
+                    "class": "light-bg with-border",
+                    "href": "undefined//localhost:9001/",
+                  },
+                  "children": Array [
+                    Object {
+                      "data": "local dev",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "a",
+                  "next": [Circular],
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                },
+                "type": "tag",
+              },
+              Object {
+                "attribs": Object {
+                  "class": "dark-bg with-border",
+                },
+                "children": Array [
+                  Object {
+                    "data": "0.2.5",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "span",
+                "next": Object {
+                  "attribs": Object {
+                    "class": "light-bg with-border",
+                    "href": "undefined//localhost:8000/0.2.6/",
+                  },
+                  "children": Array [
+                    Object {
+                      "data": "0.2.6",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "a",
+                  "next": Object {
+                    "attribs": Object {
+                      "class": "light-bg with-border",
+                      "href": "undefined//localhost:8000/0.3.0/",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "0.3.0",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "a",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": [Circular],
+                    "type": "tag",
+                  },
+                  "parent": [Circular],
+                  "prev": [Circular],
+                  "type": "tag",
+                },
+                "parent": [Circular],
+                "prev": Object {
+                  "attribs": Object {
+                    "class": "light-bg with-border",
+                    "href": "undefined//localhost:8000/0.2.4/",
+                  },
+                  "children": Array [
+                    Object {
+                      "data": "0.2.4",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "a",
+                  "next": [Circular],
+                  "parent": [Circular],
+                  "prev": Object {
+                    "attribs": Object {
+                      "class": "light-bg with-border",
+                      "href": "undefined//localhost:9001/",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "local dev",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "a",
+                    "next": [Circular],
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                  },
+                  "type": "tag",
+                },
+                "type": "tag",
+              },
+              Object {
+                "attribs": Object {
+                  "class": "light-bg with-border",
+                  "href": "undefined//localhost:8000/0.2.6/",
+                },
+                "children": Array [
+                  Object {
+                    "data": "0.2.6",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "a",
+                "next": Object {
+                  "attribs": Object {
+                    "class": "light-bg with-border",
+                    "href": "undefined//localhost:8000/0.3.0/",
+                  },
+                  "children": Array [
+                    Object {
+                      "data": "0.3.0",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "a",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": [Circular],
+                  "type": "tag",
+                },
+                "parent": [Circular],
+                "prev": Object {
+                  "attribs": Object {
+                    "class": "dark-bg with-border",
+                  },
+                  "children": Array [
+                    Object {
+                      "data": "0.2.5",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "span",
+                  "next": [Circular],
+                  "parent": [Circular],
+                  "prev": Object {
+                    "attribs": Object {
+                      "class": "light-bg with-border",
+                      "href": "undefined//localhost:8000/0.2.4/",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "0.2.4",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "a",
+                    "next": [Circular],
+                    "parent": [Circular],
+                    "prev": Object {
+                      "attribs": Object {
+                        "class": "light-bg with-border",
+                        "href": "undefined//localhost:9001/",
+                      },
+                      "children": Array [
+                        Object {
+                          "data": "local dev",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "a",
+                      "next": [Circular],
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                    },
+                    "type": "tag",
+                  },
+                  "type": "tag",
+                },
+                "type": "tag",
+              },
+              Object {
+                "attribs": Object {
+                  "class": "light-bg with-border",
+                  "href": "undefined//localhost:8000/0.3.0/",
+                },
+                "children": Array [
+                  Object {
+                    "data": "0.3.0",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "a",
+                "next": null,
+                "parent": [Circular],
+                "prev": Object {
+                  "attribs": Object {
+                    "class": "light-bg with-border",
+                    "href": "undefined//localhost:8000/0.2.6/",
+                  },
+                  "children": Array [
+                    Object {
+                      "data": "0.2.6",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "a",
+                  "next": [Circular],
+                  "parent": [Circular],
+                  "prev": Object {
+                    "attribs": Object {
+                      "class": "dark-bg with-border",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "0.2.5",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "span",
+                    "next": [Circular],
+                    "parent": [Circular],
+                    "prev": Object {
+                      "attribs": Object {
+                        "class": "light-bg with-border",
+                        "href": "undefined//localhost:8000/0.2.4/",
+                      },
+                      "children": Array [
+                        Object {
+                          "data": "0.2.4",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "a",
+                      "next": [Circular],
+                      "parent": [Circular],
+                      "prev": Object {
+                        "attribs": Object {
+                          "class": "light-bg with-border",
+                          "href": "undefined//localhost:9001/",
+                        },
+                        "children": Array [
+                          Object {
+                            "data": "local dev",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "text",
+                          },
+                        ],
+                        "name": "a",
+                        "next": [Circular],
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                      },
+                      "type": "tag",
+                    },
+                    "type": "tag",
+                  },
+                  "type": "tag",
+                },
+                "type": "tag",
+              },
+            ],
+            "name": "div",
+            "next": null,
+            "parent": [Circular],
+            "prev": Object {
+              "attribs": Object {
+                "for": "versionsAddonDevMode",
+              },
+              "children": Array [
+                Object {
+                  "attribs": Object {
+                    "checked": "",
+                    "id": "versionsAddonDevMode",
+                    "type": "checkbox",
+                  },
+                  "children": Array [],
+                  "name": "input",
+                  "next": Object {
+                    "data": " Developer mode",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": [Circular],
+                    "type": "text",
+                  },
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                },
+                Object {
+                  "data": " Developer mode",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": Object {
+                    "attribs": Object {
+                      "checked": "",
+                      "id": "versionsAddonDevMode",
+                      "type": "checkbox",
+                    },
+                    "children": Array [],
+                    "name": "input",
+                    "next": [Circular],
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                  },
+                  "type": "text",
+                },
+              ],
+              "name": "label",
+              "next": [Circular],
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+            },
+            "type": "tag",
+          },
+        ],
+        "name": "div",
+        "next": null,
+        "parent": null,
+        "prev": null,
+        "root": [Circular],
+        "type": "tag",
+      },
+    ],
+    "name": "root",
+    "next": null,
+    "parent": null,
+    "prev": null,
+    "type": "root",
+  },
+  "_root": [Circular],
+  "length": 1,
+  "options": Object {
+    "decodeEntities": true,
+    "normalizeWhitespace": false,
+    "withDomLvl1": true,
+    "xmlMode": false,
+  },
+}
 `;
