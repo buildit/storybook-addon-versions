@@ -17,6 +17,7 @@ export default class Panel extends Component {
     };
 
     this.devModeChangeHandler = this.devModeChangeHandler.bind(this);
+    this.handleVersionClick = this.handleVersionClick.bind(this);
   }
 
   componentWillMount() {
@@ -60,10 +61,19 @@ export default class Panel extends Component {
     });
   }
 
-  render() {
-    const { availableVersions, currentVersion, hostname, showLocalhost, localhost } = this.state;
-    let versionsList = <p>No versions found</p>;
+  handleVersionClick(e) {
+    // We need to handle clicks dynamically so we get all the correct query strings
+    const { currentVersion, hostname, localhost } = this.state;
     const location = this.props.location;
+    const version = e.target.value;
+    const targetHost = version ? hostname : localhost;
+    const target = generateLink(location, currentVersion, version, targetHost);
+    window.location = target;
+  }
+
+  render() {
+    const { availableVersions, currentVersion, showLocalhost } = this.state;
+    let versionsList = <p>No versions found</p>;
 
     if (availableVersions) {
       let keyCounter = 0;
@@ -75,21 +85,22 @@ export default class Panel extends Component {
           );
         }
         return (
-          <a
+          <button
             key={keyCounter++}
-            href={generateLink(location, currentVersion, version, hostname)}
+            onClick={this.handleVersionClick}
             className="light-bg with-border"
-          >{version}</a>
+            value={version}
+          >{version}</button>
         );
       });
 
       if (showLocalhost) {
         versionsList.unshift(
-          <a
+          <button
             key={keyCounter++}
-            href={generateLink(location, '', '', localhost)}
+            onClick={this.handleVersionClick}
             className="light-bg with-border"
-          >local dev</a>,
+          >local dev</button>,
         );
       }
     }
