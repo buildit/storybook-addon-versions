@@ -111,7 +111,7 @@ initialize {
                 Object {
                   "attribs": Object {
                     "class": "light-bg with-border",
-                    "href": "undefined//localhost:8000/0.3.0/",
+                    "value": "0.3.0",
                   },
                   "children": Array [
                     Object {
@@ -122,11 +122,11 @@ initialize {
                       "type": "text",
                     },
                   ],
-                  "name": "a",
+                  "name": "button",
                   "next": Object {
                     "attribs": Object {
                       "class": "light-bg with-border",
-                      "href": "undefined//localhost:8000/0.2.6/",
+                      "value": "0.2.6",
                     },
                     "children": Array [
                       Object {
@@ -137,7 +137,7 @@ initialize {
                         "type": "text",
                       },
                     ],
-                    "name": "a",
+                    "name": "button",
                     "next": Object {
                       "attribs": Object {
                         "class": "dark-bg with-border",
@@ -155,7 +155,7 @@ initialize {
                       "next": Object {
                         "attribs": Object {
                           "class": "light-bg with-border",
-                          "href": "undefined//localhost:8000/0.2.4/",
+                          "value": "0.2.4",
                         },
                         "children": Array [
                           Object {
@@ -166,7 +166,7 @@ initialize {
                             "type": "text",
                           },
                         ],
-                        "name": "a",
+                        "name": "button",
                         "next": null,
                         "parent": [Circular],
                         "prev": [Circular],
@@ -187,7 +187,7 @@ initialize {
                 Object {
                   "attribs": Object {
                     "class": "light-bg with-border",
-                    "href": "undefined//localhost:8000/0.2.6/",
+                    "value": "0.2.6",
                   },
                   "children": Array [
                     Object {
@@ -198,7 +198,7 @@ initialize {
                       "type": "text",
                     },
                   ],
-                  "name": "a",
+                  "name": "button",
                   "next": Object {
                     "attribs": Object {
                       "class": "dark-bg with-border",
@@ -216,7 +216,7 @@ initialize {
                     "next": Object {
                       "attribs": Object {
                         "class": "light-bg with-border",
-                        "href": "undefined//localhost:8000/0.2.4/",
+                        "value": "0.2.4",
                       },
                       "children": Array [
                         Object {
@@ -227,7 +227,7 @@ initialize {
                           "type": "text",
                         },
                       ],
-                      "name": "a",
+                      "name": "button",
                       "next": null,
                       "parent": [Circular],
                       "prev": [Circular],
@@ -241,7 +241,7 @@ initialize {
                   "prev": Object {
                     "attribs": Object {
                       "class": "light-bg with-border",
-                      "href": "undefined//localhost:8000/0.3.0/",
+                      "value": "0.3.0",
                     },
                     "children": Array [
                       Object {
@@ -252,7 +252,7 @@ initialize {
                         "type": "text",
                       },
                     ],
-                    "name": "a",
+                    "name": "button",
                     "next": [Circular],
                     "parent": [Circular],
                     "prev": null,
@@ -277,7 +277,7 @@ initialize {
                   "next": Object {
                     "attribs": Object {
                       "class": "light-bg with-border",
-                      "href": "undefined//localhost:8000/0.2.4/",
+                      "value": "0.2.4",
                     },
                     "children": Array [
                       Object {
@@ -288,7 +288,7 @@ initialize {
                         "type": "text",
                       },
                     ],
-                    "name": "a",
+                    "name": "button",
                     "next": null,
                     "parent": [Circular],
                     "prev": [Circular],
@@ -298,7 +298,7 @@ initialize {
                   "prev": Object {
                     "attribs": Object {
                       "class": "light-bg with-border",
-                      "href": "undefined//localhost:8000/0.2.6/",
+                      "value": "0.2.6",
                     },
                     "children": Array [
                       Object {
@@ -309,13 +309,13 @@ initialize {
                         "type": "text",
                       },
                     ],
-                    "name": "a",
+                    "name": "button",
                     "next": [Circular],
                     "parent": [Circular],
                     "prev": Object {
                       "attribs": Object {
                         "class": "light-bg with-border",
-                        "href": "undefined//localhost:8000/0.3.0/",
+                        "value": "0.3.0",
                       },
                       "children": Array [
                         Object {
@@ -326,7 +326,7 @@ initialize {
                           "type": "text",
                         },
                       ],
-                      "name": "a",
+                      "name": "button",
                       "next": [Circular],
                       "parent": [Circular],
                       "prev": null,
@@ -339,7 +339,7 @@ initialize {
                 Object {
                   "attribs": Object {
                     "class": "light-bg with-border",
-                    "href": "undefined//localhost:8000/0.2.4/",
+                    "value": "0.2.4",
                   },
                   "children": Array [
                     Object {
@@ -350,7 +350,7 @@ initialize {
                       "type": "text",
                     },
                   ],
-                  "name": "a",
+                  "name": "button",
                   "next": null,
                   "parent": [Circular],
                   "prev": Object {
@@ -372,7 +372,7 @@ initialize {
                     "prev": Object {
                       "attribs": Object {
                         "class": "light-bg with-border",
-                        "href": "undefined//localhost:8000/0.2.6/",
+                        "value": "0.2.6",
                       },
                       "children": Array [
                         Object {
@@ -383,13 +383,13 @@ initialize {
                           "type": "text",
                         },
                       ],
-                      "name": "a",
+                      "name": "button",
                       "next": [Circular],
                       "parent": [Circular],
                       "prev": Object {
                         "attribs": Object {
                           "class": "light-bg with-border",
-                          "href": "undefined//localhost:8000/0.3.0/",
+                          "value": "0.3.0",
                         },
                         "children": Array [
                           Object {
@@ -400,7 +400,7 @@ initialize {
                             "type": "text",
                           },
                         ],
-                        "name": "a",
+                        "name": "button",
                         "next": [Circular],
                         "parent": [Circular],
                         "prev": null,
@@ -431,7 +431,7 @@ initialize {
               Object {
                 "attribs": Object {
                   "class": "light-bg with-border",
-                  "href": "undefined//localhost:8000/0.3.0/",
+                  "value": "0.3.0",
                 },
                 "children": Array [
                   Object {
@@ -442,11 +442,11 @@ initialize {
                     "type": "text",
                   },
                 ],
-                "name": "a",
+                "name": "button",
                 "next": Object {
                   "attribs": Object {
                     "class": "light-bg with-border",
-                    "href": "undefined//localhost:8000/0.2.6/",
+                    "value": "0.2.6",
                   },
                   "children": Array [
                     Object {
@@ -457,7 +457,7 @@ initialize {
                       "type": "text",
                     },
                   ],
-                  "name": "a",
+                  "name": "button",
                   "next": Object {
                     "attribs": Object {
                       "class": "dark-bg with-border",
@@ -475,7 +475,7 @@ initialize {
                     "next": Object {
                       "attribs": Object {
                         "class": "light-bg with-border",
-                        "href": "undefined//localhost:8000/0.2.4/",
+                        "value": "0.2.4",
                       },
                       "children": Array [
                         Object {
@@ -486,7 +486,7 @@ initialize {
                           "type": "text",
                         },
                       ],
-                      "name": "a",
+                      "name": "button",
                       "next": null,
                       "parent": [Circular],
                       "prev": [Circular],
@@ -507,7 +507,7 @@ initialize {
               Object {
                 "attribs": Object {
                   "class": "light-bg with-border",
-                  "href": "undefined//localhost:8000/0.2.6/",
+                  "value": "0.2.6",
                 },
                 "children": Array [
                   Object {
@@ -518,7 +518,7 @@ initialize {
                     "type": "text",
                   },
                 ],
-                "name": "a",
+                "name": "button",
                 "next": Object {
                   "attribs": Object {
                     "class": "dark-bg with-border",
@@ -536,7 +536,7 @@ initialize {
                   "next": Object {
                     "attribs": Object {
                       "class": "light-bg with-border",
-                      "href": "undefined//localhost:8000/0.2.4/",
+                      "value": "0.2.4",
                     },
                     "children": Array [
                       Object {
@@ -547,7 +547,7 @@ initialize {
                         "type": "text",
                       },
                     ],
-                    "name": "a",
+                    "name": "button",
                     "next": null,
                     "parent": [Circular],
                     "prev": [Circular],
@@ -561,7 +561,7 @@ initialize {
                 "prev": Object {
                   "attribs": Object {
                     "class": "light-bg with-border",
-                    "href": "undefined//localhost:8000/0.3.0/",
+                    "value": "0.3.0",
                   },
                   "children": Array [
                     Object {
@@ -572,7 +572,7 @@ initialize {
                       "type": "text",
                     },
                   ],
-                  "name": "a",
+                  "name": "button",
                   "next": [Circular],
                   "parent": [Circular],
                   "prev": null,
@@ -597,7 +597,7 @@ initialize {
                 "next": Object {
                   "attribs": Object {
                     "class": "light-bg with-border",
-                    "href": "undefined//localhost:8000/0.2.4/",
+                    "value": "0.2.4",
                   },
                   "children": Array [
                     Object {
@@ -608,7 +608,7 @@ initialize {
                       "type": "text",
                     },
                   ],
-                  "name": "a",
+                  "name": "button",
                   "next": null,
                   "parent": [Circular],
                   "prev": [Circular],
@@ -618,7 +618,7 @@ initialize {
                 "prev": Object {
                   "attribs": Object {
                     "class": "light-bg with-border",
-                    "href": "undefined//localhost:8000/0.2.6/",
+                    "value": "0.2.6",
                   },
                   "children": Array [
                     Object {
@@ -629,13 +629,13 @@ initialize {
                       "type": "text",
                     },
                   ],
-                  "name": "a",
+                  "name": "button",
                   "next": [Circular],
                   "parent": [Circular],
                   "prev": Object {
                     "attribs": Object {
                       "class": "light-bg with-border",
-                      "href": "undefined//localhost:8000/0.3.0/",
+                      "value": "0.3.0",
                     },
                     "children": Array [
                       Object {
@@ -646,7 +646,7 @@ initialize {
                         "type": "text",
                       },
                     ],
-                    "name": "a",
+                    "name": "button",
                     "next": [Circular],
                     "parent": [Circular],
                     "prev": null,
@@ -659,7 +659,7 @@ initialize {
               Object {
                 "attribs": Object {
                   "class": "light-bg with-border",
-                  "href": "undefined//localhost:8000/0.2.4/",
+                  "value": "0.2.4",
                 },
                 "children": Array [
                   Object {
@@ -670,7 +670,7 @@ initialize {
                     "type": "text",
                   },
                 ],
-                "name": "a",
+                "name": "button",
                 "next": null,
                 "parent": [Circular],
                 "prev": Object {
@@ -692,7 +692,7 @@ initialize {
                   "prev": Object {
                     "attribs": Object {
                       "class": "light-bg with-border",
-                      "href": "undefined//localhost:8000/0.2.6/",
+                      "value": "0.2.6",
                     },
                     "children": Array [
                       Object {
@@ -703,13 +703,13 @@ initialize {
                         "type": "text",
                       },
                     ],
-                    "name": "a",
+                    "name": "button",
                     "next": [Circular],
                     "parent": [Circular],
                     "prev": Object {
                       "attribs": Object {
                         "class": "light-bg with-border",
-                        "href": "undefined//localhost:8000/0.3.0/",
+                        "value": "0.3.0",
                       },
                       "children": Array [
                         Object {
@@ -720,7 +720,7 @@ initialize {
                           "type": "text",
                         },
                       ],
-                      "name": "a",
+                      "name": "button",
                       "next": [Circular],
                       "parent": [Circular],
                       "prev": null,
@@ -875,7 +875,6 @@ initialize {
                 Object {
                   "attribs": Object {
                     "class": "light-bg with-border",
-                    "href": "undefined//localhost:9001/",
                   },
                   "children": Array [
                     Object {
@@ -886,11 +885,11 @@ initialize {
                       "type": "text",
                     },
                   ],
-                  "name": "a",
+                  "name": "button",
                   "next": Object {
                     "attribs": Object {
                       "class": "light-bg with-border",
-                      "href": "undefined//localhost:8000/0.2.4/",
+                      "value": "0.2.4",
                     },
                     "children": Array [
                       Object {
@@ -901,7 +900,7 @@ initialize {
                         "type": "text",
                       },
                     ],
-                    "name": "a",
+                    "name": "button",
                     "next": Object {
                       "attribs": Object {
                         "class": "dark-bg with-border",
@@ -919,7 +918,7 @@ initialize {
                       "next": Object {
                         "attribs": Object {
                           "class": "light-bg with-border",
-                          "href": "undefined//localhost:8000/0.2.6/",
+                          "value": "0.2.6",
                         },
                         "children": Array [
                           Object {
@@ -930,11 +929,11 @@ initialize {
                             "type": "text",
                           },
                         ],
-                        "name": "a",
+                        "name": "button",
                         "next": Object {
                           "attribs": Object {
                             "class": "light-bg with-border",
-                            "href": "undefined//localhost:8000/0.3.0/",
+                            "value": "0.3.0",
                           },
                           "children": Array [
                             Object {
@@ -945,7 +944,7 @@ initialize {
                               "type": "text",
                             },
                           ],
-                          "name": "a",
+                          "name": "button",
                           "next": null,
                           "parent": [Circular],
                           "prev": [Circular],
@@ -970,7 +969,7 @@ initialize {
                 Object {
                   "attribs": Object {
                     "class": "light-bg with-border",
-                    "href": "undefined//localhost:8000/0.2.4/",
+                    "value": "0.2.4",
                   },
                   "children": Array [
                     Object {
@@ -981,7 +980,7 @@ initialize {
                       "type": "text",
                     },
                   ],
-                  "name": "a",
+                  "name": "button",
                   "next": Object {
                     "attribs": Object {
                       "class": "dark-bg with-border",
@@ -999,7 +998,7 @@ initialize {
                     "next": Object {
                       "attribs": Object {
                         "class": "light-bg with-border",
-                        "href": "undefined//localhost:8000/0.2.6/",
+                        "value": "0.2.6",
                       },
                       "children": Array [
                         Object {
@@ -1010,11 +1009,11 @@ initialize {
                           "type": "text",
                         },
                       ],
-                      "name": "a",
+                      "name": "button",
                       "next": Object {
                         "attribs": Object {
                           "class": "light-bg with-border",
-                          "href": "undefined//localhost:8000/0.3.0/",
+                          "value": "0.3.0",
                         },
                         "children": Array [
                           Object {
@@ -1025,7 +1024,7 @@ initialize {
                             "type": "text",
                           },
                         ],
-                        "name": "a",
+                        "name": "button",
                         "next": null,
                         "parent": [Circular],
                         "prev": [Circular],
@@ -1043,7 +1042,6 @@ initialize {
                   "prev": Object {
                     "attribs": Object {
                       "class": "light-bg with-border",
-                      "href": "undefined//localhost:9001/",
                     },
                     "children": Array [
                       Object {
@@ -1054,7 +1052,7 @@ initialize {
                         "type": "text",
                       },
                     ],
-                    "name": "a",
+                    "name": "button",
                     "next": [Circular],
                     "parent": [Circular],
                     "prev": null,
@@ -1079,7 +1077,7 @@ initialize {
                   "next": Object {
                     "attribs": Object {
                       "class": "light-bg with-border",
-                      "href": "undefined//localhost:8000/0.2.6/",
+                      "value": "0.2.6",
                     },
                     "children": Array [
                       Object {
@@ -1090,11 +1088,11 @@ initialize {
                         "type": "text",
                       },
                     ],
-                    "name": "a",
+                    "name": "button",
                     "next": Object {
                       "attribs": Object {
                         "class": "light-bg with-border",
-                        "href": "undefined//localhost:8000/0.3.0/",
+                        "value": "0.3.0",
                       },
                       "children": Array [
                         Object {
@@ -1105,7 +1103,7 @@ initialize {
                           "type": "text",
                         },
                       ],
-                      "name": "a",
+                      "name": "button",
                       "next": null,
                       "parent": [Circular],
                       "prev": [Circular],
@@ -1119,7 +1117,7 @@ initialize {
                   "prev": Object {
                     "attribs": Object {
                       "class": "light-bg with-border",
-                      "href": "undefined//localhost:8000/0.2.4/",
+                      "value": "0.2.4",
                     },
                     "children": Array [
                       Object {
@@ -1130,13 +1128,12 @@ initialize {
                         "type": "text",
                       },
                     ],
-                    "name": "a",
+                    "name": "button",
                     "next": [Circular],
                     "parent": [Circular],
                     "prev": Object {
                       "attribs": Object {
                         "class": "light-bg with-border",
-                        "href": "undefined//localhost:9001/",
                       },
                       "children": Array [
                         Object {
@@ -1147,7 +1144,7 @@ initialize {
                           "type": "text",
                         },
                       ],
-                      "name": "a",
+                      "name": "button",
                       "next": [Circular],
                       "parent": [Circular],
                       "prev": null,
@@ -1160,7 +1157,7 @@ initialize {
                 Object {
                   "attribs": Object {
                     "class": "light-bg with-border",
-                    "href": "undefined//localhost:8000/0.2.6/",
+                    "value": "0.2.6",
                   },
                   "children": Array [
                     Object {
@@ -1171,11 +1168,11 @@ initialize {
                       "type": "text",
                     },
                   ],
-                  "name": "a",
+                  "name": "button",
                   "next": Object {
                     "attribs": Object {
                       "class": "light-bg with-border",
-                      "href": "undefined//localhost:8000/0.3.0/",
+                      "value": "0.3.0",
                     },
                     "children": Array [
                       Object {
@@ -1186,7 +1183,7 @@ initialize {
                         "type": "text",
                       },
                     ],
-                    "name": "a",
+                    "name": "button",
                     "next": null,
                     "parent": [Circular],
                     "prev": [Circular],
@@ -1212,7 +1209,7 @@ initialize {
                     "prev": Object {
                       "attribs": Object {
                         "class": "light-bg with-border",
-                        "href": "undefined//localhost:8000/0.2.4/",
+                        "value": "0.2.4",
                       },
                       "children": Array [
                         Object {
@@ -1223,13 +1220,12 @@ initialize {
                           "type": "text",
                         },
                       ],
-                      "name": "a",
+                      "name": "button",
                       "next": [Circular],
                       "parent": [Circular],
                       "prev": Object {
                         "attribs": Object {
                           "class": "light-bg with-border",
-                          "href": "undefined//localhost:9001/",
                         },
                         "children": Array [
                           Object {
@@ -1240,7 +1236,7 @@ initialize {
                             "type": "text",
                           },
                         ],
-                        "name": "a",
+                        "name": "button",
                         "next": [Circular],
                         "parent": [Circular],
                         "prev": null,
@@ -1255,7 +1251,7 @@ initialize {
                 Object {
                   "attribs": Object {
                     "class": "light-bg with-border",
-                    "href": "undefined//localhost:8000/0.3.0/",
+                    "value": "0.3.0",
                   },
                   "children": Array [
                     Object {
@@ -1266,13 +1262,13 @@ initialize {
                       "type": "text",
                     },
                   ],
-                  "name": "a",
+                  "name": "button",
                   "next": null,
                   "parent": [Circular],
                   "prev": Object {
                     "attribs": Object {
                       "class": "light-bg with-border",
-                      "href": "undefined//localhost:8000/0.2.6/",
+                      "value": "0.2.6",
                     },
                     "children": Array [
                       Object {
@@ -1283,7 +1279,7 @@ initialize {
                         "type": "text",
                       },
                     ],
-                    "name": "a",
+                    "name": "button",
                     "next": [Circular],
                     "parent": [Circular],
                     "prev": Object {
@@ -1305,7 +1301,7 @@ initialize {
                       "prev": Object {
                         "attribs": Object {
                           "class": "light-bg with-border",
-                          "href": "undefined//localhost:8000/0.2.4/",
+                          "value": "0.2.4",
                         },
                         "children": Array [
                           Object {
@@ -1316,13 +1312,12 @@ initialize {
                             "type": "text",
                           },
                         ],
-                        "name": "a",
+                        "name": "button",
                         "next": [Circular],
                         "parent": [Circular],
                         "prev": Object {
                           "attribs": Object {
                             "class": "light-bg with-border",
-                            "href": "undefined//localhost:9001/",
                           },
                           "children": Array [
                             Object {
@@ -1333,7 +1328,7 @@ initialize {
                               "type": "text",
                             },
                           ],
-                          "name": "a",
+                          "name": "button",
                           "next": [Circular],
                           "parent": [Circular],
                           "prev": null,
@@ -1366,7 +1361,6 @@ initialize {
               Object {
                 "attribs": Object {
                   "class": "light-bg with-border",
-                  "href": "undefined//localhost:9001/",
                 },
                 "children": Array [
                   Object {
@@ -1377,11 +1371,11 @@ initialize {
                     "type": "text",
                   },
                 ],
-                "name": "a",
+                "name": "button",
                 "next": Object {
                   "attribs": Object {
                     "class": "light-bg with-border",
-                    "href": "undefined//localhost:8000/0.2.4/",
+                    "value": "0.2.4",
                   },
                   "children": Array [
                     Object {
@@ -1392,7 +1386,7 @@ initialize {
                       "type": "text",
                     },
                   ],
-                  "name": "a",
+                  "name": "button",
                   "next": Object {
                     "attribs": Object {
                       "class": "dark-bg with-border",
@@ -1410,7 +1404,7 @@ initialize {
                     "next": Object {
                       "attribs": Object {
                         "class": "light-bg with-border",
-                        "href": "undefined//localhost:8000/0.2.6/",
+                        "value": "0.2.6",
                       },
                       "children": Array [
                         Object {
@@ -1421,11 +1415,11 @@ initialize {
                           "type": "text",
                         },
                       ],
-                      "name": "a",
+                      "name": "button",
                       "next": Object {
                         "attribs": Object {
                           "class": "light-bg with-border",
-                          "href": "undefined//localhost:8000/0.3.0/",
+                          "value": "0.3.0",
                         },
                         "children": Array [
                           Object {
@@ -1436,7 +1430,7 @@ initialize {
                             "type": "text",
                           },
                         ],
-                        "name": "a",
+                        "name": "button",
                         "next": null,
                         "parent": [Circular],
                         "prev": [Circular],
@@ -1461,7 +1455,7 @@ initialize {
               Object {
                 "attribs": Object {
                   "class": "light-bg with-border",
-                  "href": "undefined//localhost:8000/0.2.4/",
+                  "value": "0.2.4",
                 },
                 "children": Array [
                   Object {
@@ -1472,7 +1466,7 @@ initialize {
                     "type": "text",
                   },
                 ],
-                "name": "a",
+                "name": "button",
                 "next": Object {
                   "attribs": Object {
                     "class": "dark-bg with-border",
@@ -1490,7 +1484,7 @@ initialize {
                   "next": Object {
                     "attribs": Object {
                       "class": "light-bg with-border",
-                      "href": "undefined//localhost:8000/0.2.6/",
+                      "value": "0.2.6",
                     },
                     "children": Array [
                       Object {
@@ -1501,11 +1495,11 @@ initialize {
                         "type": "text",
                       },
                     ],
-                    "name": "a",
+                    "name": "button",
                     "next": Object {
                       "attribs": Object {
                         "class": "light-bg with-border",
-                        "href": "undefined//localhost:8000/0.3.0/",
+                        "value": "0.3.0",
                       },
                       "children": Array [
                         Object {
@@ -1516,7 +1510,7 @@ initialize {
                           "type": "text",
                         },
                       ],
-                      "name": "a",
+                      "name": "button",
                       "next": null,
                       "parent": [Circular],
                       "prev": [Circular],
@@ -1534,7 +1528,6 @@ initialize {
                 "prev": Object {
                   "attribs": Object {
                     "class": "light-bg with-border",
-                    "href": "undefined//localhost:9001/",
                   },
                   "children": Array [
                     Object {
@@ -1545,7 +1538,7 @@ initialize {
                       "type": "text",
                     },
                   ],
-                  "name": "a",
+                  "name": "button",
                   "next": [Circular],
                   "parent": [Circular],
                   "prev": null,
@@ -1570,7 +1563,7 @@ initialize {
                 "next": Object {
                   "attribs": Object {
                     "class": "light-bg with-border",
-                    "href": "undefined//localhost:8000/0.2.6/",
+                    "value": "0.2.6",
                   },
                   "children": Array [
                     Object {
@@ -1581,11 +1574,11 @@ initialize {
                       "type": "text",
                     },
                   ],
-                  "name": "a",
+                  "name": "button",
                   "next": Object {
                     "attribs": Object {
                       "class": "light-bg with-border",
-                      "href": "undefined//localhost:8000/0.3.0/",
+                      "value": "0.3.0",
                     },
                     "children": Array [
                       Object {
@@ -1596,7 +1589,7 @@ initialize {
                         "type": "text",
                       },
                     ],
-                    "name": "a",
+                    "name": "button",
                     "next": null,
                     "parent": [Circular],
                     "prev": [Circular],
@@ -1610,7 +1603,7 @@ initialize {
                 "prev": Object {
                   "attribs": Object {
                     "class": "light-bg with-border",
-                    "href": "undefined//localhost:8000/0.2.4/",
+                    "value": "0.2.4",
                   },
                   "children": Array [
                     Object {
@@ -1621,13 +1614,12 @@ initialize {
                       "type": "text",
                     },
                   ],
-                  "name": "a",
+                  "name": "button",
                   "next": [Circular],
                   "parent": [Circular],
                   "prev": Object {
                     "attribs": Object {
                       "class": "light-bg with-border",
-                      "href": "undefined//localhost:9001/",
                     },
                     "children": Array [
                       Object {
@@ -1638,7 +1630,7 @@ initialize {
                         "type": "text",
                       },
                     ],
-                    "name": "a",
+                    "name": "button",
                     "next": [Circular],
                     "parent": [Circular],
                     "prev": null,
@@ -1651,7 +1643,7 @@ initialize {
               Object {
                 "attribs": Object {
                   "class": "light-bg with-border",
-                  "href": "undefined//localhost:8000/0.2.6/",
+                  "value": "0.2.6",
                 },
                 "children": Array [
                   Object {
@@ -1662,11 +1654,11 @@ initialize {
                     "type": "text",
                   },
                 ],
-                "name": "a",
+                "name": "button",
                 "next": Object {
                   "attribs": Object {
                     "class": "light-bg with-border",
-                    "href": "undefined//localhost:8000/0.3.0/",
+                    "value": "0.3.0",
                   },
                   "children": Array [
                     Object {
@@ -1677,7 +1669,7 @@ initialize {
                       "type": "text",
                     },
                   ],
-                  "name": "a",
+                  "name": "button",
                   "next": null,
                   "parent": [Circular],
                   "prev": [Circular],
@@ -1703,7 +1695,7 @@ initialize {
                   "prev": Object {
                     "attribs": Object {
                       "class": "light-bg with-border",
-                      "href": "undefined//localhost:8000/0.2.4/",
+                      "value": "0.2.4",
                     },
                     "children": Array [
                       Object {
@@ -1714,13 +1706,12 @@ initialize {
                         "type": "text",
                       },
                     ],
-                    "name": "a",
+                    "name": "button",
                     "next": [Circular],
                     "parent": [Circular],
                     "prev": Object {
                       "attribs": Object {
                         "class": "light-bg with-border",
-                        "href": "undefined//localhost:9001/",
                       },
                       "children": Array [
                         Object {
@@ -1731,7 +1722,7 @@ initialize {
                           "type": "text",
                         },
                       ],
-                      "name": "a",
+                      "name": "button",
                       "next": [Circular],
                       "parent": [Circular],
                       "prev": null,
@@ -1746,7 +1737,7 @@ initialize {
               Object {
                 "attribs": Object {
                   "class": "light-bg with-border",
-                  "href": "undefined//localhost:8000/0.3.0/",
+                  "value": "0.3.0",
                 },
                 "children": Array [
                   Object {
@@ -1757,13 +1748,13 @@ initialize {
                     "type": "text",
                   },
                 ],
-                "name": "a",
+                "name": "button",
                 "next": null,
                 "parent": [Circular],
                 "prev": Object {
                   "attribs": Object {
                     "class": "light-bg with-border",
-                    "href": "undefined//localhost:8000/0.2.6/",
+                    "value": "0.2.6",
                   },
                   "children": Array [
                     Object {
@@ -1774,7 +1765,7 @@ initialize {
                       "type": "text",
                     },
                   ],
-                  "name": "a",
+                  "name": "button",
                   "next": [Circular],
                   "parent": [Circular],
                   "prev": Object {
@@ -1796,7 +1787,7 @@ initialize {
                     "prev": Object {
                       "attribs": Object {
                         "class": "light-bg with-border",
-                        "href": "undefined//localhost:8000/0.2.4/",
+                        "value": "0.2.4",
                       },
                       "children": Array [
                         Object {
@@ -1807,13 +1798,12 @@ initialize {
                           "type": "text",
                         },
                       ],
-                      "name": "a",
+                      "name": "button",
                       "next": [Circular],
                       "parent": [Circular],
                       "prev": Object {
                         "attribs": Object {
                           "class": "light-bg with-border",
-                          "href": "undefined//localhost:9001/",
                         },
                         "children": Array [
                           Object {
@@ -1824,7 +1814,7 @@ initialize {
                             "type": "text",
                           },
                         ],
-                        "name": "a",
+                        "name": "button",
                         "next": [Circular],
                         "parent": [Circular],
                         "prev": null,

@@ -63,10 +63,10 @@ describe('Panel', () => {
     };
 
     const wrapper = await shallow(<Panel storybook={storybook} location={location} />);
-    const linksFound = wrapper.find('a').length;
+    const linksFound = wrapper.find('button').length;
     wrapper.find('#versionsAddonDevMode').simulate('change');
-    expect(wrapper.find('a').length).toBe(linksFound - 1);
+    expect(wrapper.find('button').length).toBe(linksFound - 1);
     wrapper.find('#versionsAddonDevMode').simulate('change');
-    expect(wrapper.find('a').length).toBe(linksFound);
+    expect(wrapper.find('button').length).toBe(linksFound);
   });
 });
