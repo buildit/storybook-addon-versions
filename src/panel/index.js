@@ -66,7 +66,7 @@ export default class Panel extends Component {
     const { currentVersion, hostname, localhost } = this.state;
     const location = this.props.location;
     const version = e.target.value;
-    const targetHost = version ? hostname : localhost;
+    const targetHost = version ? (hostname || `${location.hostname}:${location.port}`) : localhost;
     const target = generateLink(location, currentVersion, version, targetHost);
     window.location = target;
   }
