@@ -21,7 +21,7 @@ const getConfig = (filename = 'storybook-config.json') => (
             }
           });
         } else {
-          reject('Response not ok');
+          throw new Error('Response not ok');
         }
       }).catch(() => {
         if (pathParts.filter(_ => _).length === 0) {
